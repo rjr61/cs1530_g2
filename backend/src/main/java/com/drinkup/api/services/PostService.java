@@ -20,6 +20,10 @@ public class PostService {
 	 public List<Post> getPosts() {
 		 return postRepo.findAll();
 	 }
+	 public List<Post> findByCreatedDateGreaterThan(long cur) {
+		 return postRepo.findByCreatedDateGreaterThan(cur);
+	 }
+	 
 	 
 
 }

@@ -12,9 +12,12 @@ import org.springframework.data.repository.CrudRepository;
 public interface PostRepository extends CrudRepository<Post, String> {
 
 	Optional<Post> findById(String id);
-
+	
 	List<Post> findAll();
-
+	
+	List<Post> findByCreatedDateGreaterThan(long cur);
+	
+	
 	@SuppressWarnings("unchecked")
 	Post save(Post item);
 }

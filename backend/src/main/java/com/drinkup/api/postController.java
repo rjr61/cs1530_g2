@@ -1,4 +1,8 @@
 package com.drinkup.api;
+import java.util.Collections;
+import java.util.Date;
+import java.text.DateFormat;
+import java.text.ParseException;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -32,6 +36,19 @@ public class postController {
     @RequestMapping("/get-posts")
     public List<Post> getPosts() {
     	List<Post> posts = postService.getPosts();
+    	posts = (List<Post>)posts;
+    	if(posts!=null) {
+    		Collections.sort(posts);
+    		Collections.reverse(posts);
+    		return posts;
+    	}else
+    	{
+    		return null;
+    	}
+    }
+    @RequestMapping("/get-new")
+    public List<Post> getCurrentPosts(@RequestBody Time cur) throws ParseException {
+		List<Post> posts = postService.findByCreatedDateGreaterThan(cur.getTime());
     	if(posts!=null) {
     		return posts;
     	}else
