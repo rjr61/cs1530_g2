@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { PostBody } from './components/tweet.js'
-import {PullToRefresh, PullDownContent, ReleaseContent, RefreshContent} from "react-js-pull-to-refresh";
+import { PostBody } from './components/post.js'
 import './App.css';
+import Navbar from 'react-bootstrap/Navbar'
 
 class App extends Component {
   constructor(props) {
@@ -74,30 +74,34 @@ class App extends Component {
   
   render() {
     return (
-      <PullToRefresh
-      pullDownContent={<PullDownContent />}
-      releaseContent={<ReleaseContent />}
-      refreshContent={<RefreshContent />}
-      pullDownThreshold={2}
-      onRefresh={this.handleRefresh}
-      triggerHeight={50}
-      backgroundColor='black'>
-      <div className="main-body">
-        {[...this.state.users].map((user, index) => {
-          let username = `${user.username}`
-          let location = `${user.location}`
-          let review = `${user.review}`
-          return(
-            <PostBody 
-              key={index}
-              username={username}
-              location={location}
-              review={review}
-              />
-          )
-        })}      
+      <div className="App-content">
+        <div className="App-header">
+        <Navbar>
+          <Navbar.Brand href="#home">Navbar with text</Navbar.Brand>
+          <Navbar.Toggle />
+          <Navbar.Collapse className="justify-content-end">
+            <Navbar.Text>
+              Signed in as: <a href="#login">Mark Otto</a>
+            </Navbar.Text>
+          </Navbar.Collapse>
+        </Navbar>
+        </div>
+        <div className="App-body">
+          {[...this.state.users].map((user, index) => {
+            let username = `${user.username}`
+            let location = `${user.location}`
+            let review = `${user.review}`
+            return(
+              <PostBody 
+                key={index}
+                username={username}
+                location={location}
+                review={review}
+                />
+            )
+          })}
+        </div>
       </div>
-      </PullToRefresh>
     );
   }
 }
