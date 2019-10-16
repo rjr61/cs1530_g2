@@ -8,13 +8,6 @@ const PostBox = (props) => {
   )
 }
 
-/*const Image = (props) => {
-  return(
-    <img src={props.image} alt="Logo" className="picture">
-    </img>
-  )
-}*/
-
 const Location = (props) => {
   return(
     <div className="location">
