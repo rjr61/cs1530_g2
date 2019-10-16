@@ -1,4 +1,5 @@
 package com.drinkup.api;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
 import java.text.DateFormat;
@@ -7,7 +8,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.drinkup.api.models.*;
+import com.drinkup.api.models.Time;
+import com.drinkup.api.models.Post;
 import com.drinkup.api.services.PostService;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.http.HttpStatus;
@@ -36,10 +38,7 @@ public class postController {
     @RequestMapping("/get-posts")
     public List<Post> getPosts() {
     	List<Post> posts = postService.getPosts();
-    	posts = (List<Post>)posts;
     	if(posts!=null) {
-    		Collections.sort(posts);
-    		Collections.reverse(posts);
     		return posts;
     	}else
     	{

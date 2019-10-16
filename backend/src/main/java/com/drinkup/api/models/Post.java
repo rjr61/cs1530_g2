@@ -83,8 +83,8 @@ public class Post implements Comparable<Post>{
     
 	@Override
 	public int compareTo(Post post) {
-		if(getCreatedDate()>post.getCreatedDate()) return 1;
+		if(getCreatedDate()>post.getCreatedDate()) return -1;
 		else if(getCreatedDate()==post.getCreatedDate())return 0;
-		else return -1; 
+		else return 1; 
 	}
 }

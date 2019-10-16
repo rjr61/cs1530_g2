@@ -14,6 +14,7 @@ public interface PostRepository extends CrudRepository<Post, String> {
 	Optional<Post> findById(String id);
 	
 	List<Post> findAll();
+	List<Post> findAllOrderByCreatedDate();
 	
 	List<Post> findByCreatedDateGreaterThan(long cur);
 	
