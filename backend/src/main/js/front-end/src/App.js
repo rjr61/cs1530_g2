@@ -18,7 +18,7 @@ class App extends Component {
 
   handleRefresh() {
     return new Promise((resolve) => {
-      this.getUser()
+      this.getNewPosts()
     });
   }
 
@@ -30,6 +30,7 @@ class App extends Component {
           username: element.username,
           review: element.review,
           location: element.location,
+          createdDate: element.createdDate
         },
         ...this.state.users,
       ]
@@ -47,8 +48,24 @@ class App extends Component {
       throw new Error('Request failed.');
     })
     .then(data => {
-      data.forEach(this.mapUser);
-     
+      data.forEach(this.mapUser); 
+    })
+    .catch(error => {
+      console.log(error);
+    });
+  }
+  getNewPosts() {
+    var time = this.state.users[0].createdDate;
+    fetch('http://localhost:8080/get-new',{
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ 'time': time }),
+    }).then(response => {
+      if(response.ok) return response.json();
+      throw new Error('Request failed.');
+    })
+    .then(data => {
+      data.forEach(this.mapUser); 
     })
     .catch(error => {
       console.log(error);
