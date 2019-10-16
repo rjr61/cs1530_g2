@@ -10,8 +10,11 @@ import org.springframework.data.repository.CrudRepository;
 
 @EnableScan
 public interface PostRepository extends CrudRepository<Post, String> {
+
 	Optional<Post> findById(String id);
-	List<Post> findAll();	
+
+	List<Post> findAll();
+
 	@SuppressWarnings("unchecked")
 	Post save(Post item);
 }
