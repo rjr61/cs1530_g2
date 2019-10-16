@@ -30,12 +30,6 @@ public class DynamoDBConfig {
 		AmazonDynamoDB amazonDynamoDB = new AmazonDynamoDBClient(awsCredentials);
 		return amazonDynamoDB;
 	}
-	/*@Bean
-	public DynamoDBMapper dynamoDBMapper() {
-		@SuppressWarnings("deprecation")
-		DynamoDBMapper dynamoDBMapper = new DynamoDBMapper(amazonDynamoDB(awsCredentials()));
-		return dynamoDBMapper;
-	}*/
  
 	@Bean
 	public AWSCredentials awsCredentials() {
