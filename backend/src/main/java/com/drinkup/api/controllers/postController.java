@@ -17,6 +17,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.http.ResponseEntity.BodyBuilder;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.PathVariable;
 @CrossOrigin(origins = "http://localhost:3000")
 @RestController
 public class postController {
@@ -45,8 +46,18 @@ public class postController {
     		return null;
     	}
     }
+    @RequestMapping("/get-posts/{username}")
+    public List<Post> getUserPosts(@PathVariable("username") String username) {
+    	List<Post> posts = postService.getUserPosts(username);
+    	if(posts!=null) {
+    		return posts;
+    	}else
+    	{
+    		return null;
+    	}
+    }
     @RequestMapping("/get-new")
-    public List<Post> getCurrentPosts(@RequestBody Time cur) throws ParseException {
+    public List<Post> getCurrentPosts(@RequestBody Time cur){
 		List<Post> posts = postService.findByCreatedDateGreaterThan(cur.getTime());
     	if(posts!=null) {
     		return posts;
@@ -54,6 +65,22 @@ public class postController {
     	{
     		return null;
     	}
+    }
+    @RequestMapping("/inc-likes/{postId}")
+    public void incLikes(@PathVariable("postId") String postId) {
+    	Post post = postService.getPostById(postId);
+    	post.incLikes();
+    	postService.savePost(post);
+    }
+    @RequestMapping("/dec-likes/{postId}")
+    public void decLikes(@PathVariable("postId") String postId) {
+    	Post post = postService.getPostById(postId);
+    	post.decLikes();
+    	postService.savePost(post);
+    }
+    @RequestMapping("/supersecretendpoint/deletePosts")
+    public void deleteAllPosts()  {
+		postService.deletePosts();
     }
 
 }

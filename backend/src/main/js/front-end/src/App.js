@@ -4,7 +4,7 @@ import './App.css';
 import { Navbar, Nav } from 'react-bootstrap'
 
 // chris stuff
-import postData from './postdata.json';
+//import postData from './postdata.json';
 
 class App extends Component {
   constructor(props) {
@@ -88,7 +88,7 @@ class App extends Component {
     </Nav>
   </Navbar>
         </div>
-        <div className="App-body">
+       {/* <div className="App-body">
         {postData.map((user, index) => {
             let username = `${user.username}`
             let location = `${user.location}`
@@ -103,7 +103,8 @@ class App extends Component {
             )
           })}
         </div>
-          {/*
+          })}*/}
+          <div className="App-body">
           {[...this.state.users].map((user, index) => {
             let username = `${user.username}`
             let location = `${user.location}`
@@ -117,7 +118,7 @@ class App extends Component {
                 />
             )
           })}
-        */}
+        </div>
       </div>
     );
   }
