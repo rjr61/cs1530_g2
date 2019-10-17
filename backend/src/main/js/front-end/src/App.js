@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { PostBody } from './components/post.js'
 import './App.css';
-import { Navbar, Nav } from 'react-bootstrap'
+import { Navbar, Nav, Container, Row, Col } from 'react-bootstrap'
 
 // chris stuff
-//import postData from './postdata.json';
+import postData from './data/postdata.json';
 
 class App extends Component {
   constructor(props) {
@@ -79,16 +79,20 @@ class App extends Component {
     return (
       <div className="App-content">
         <div className="App-header">
-        <Navbar bg="dark" variant="dark">
-    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-    <Nav className="mr-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
-    </Nav>
-  </Navbar>
+          <Navbar bg="dark" variant="dark" sticky="top">
+            <Navbar.Brand href="#/">DrinkUp</Navbar.Brand>
+            <Nav>
+              <Nav.Link href="#feed">Feed</Nav.Link>
+            </Nav>
+            <Nav>
+              <Nav.Link href="#trending">Trending</Nav.Link>
+            </Nav>
+            <Nav>
+              <Nav.Link href="#upload">Upload</Nav.Link>
+            </Nav>
+          </Navbar>
         </div>
-       {/* <div className="App-body">
+       {/*] <div className="App-body">
         {postData.map((user, index) => {
             let username = `${user.username}`
             let location = `${user.location}`
@@ -103,8 +107,8 @@ class App extends Component {
             )
           })}
         </div>
-          })}*/}
-          <div className="App-body">
+        <div id="refresh-button">Refresh</div>
+          {/*
           {[...this.state.users].map((user, index) => {
             let username = `${user.username}`
             let location = `${user.location}`

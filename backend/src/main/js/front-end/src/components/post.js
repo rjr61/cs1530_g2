@@ -1,4 +1,5 @@
 import React from 'react';
+import './post.css'
 
 const PostBox = (props) => {
   return(
@@ -8,6 +9,7 @@ const PostBox = (props) => {
   )
 }
 
+/*
 const Location = (props) => {
   return(
     <div className="location">
@@ -15,10 +17,11 @@ const Location = (props) => {
     </div>
   )
 }
+*/
 
 const Username = (props) => {
   return(
-    <div className="username">
+    <div className="post-username">
       {props.username}
     </div>
   )
@@ -26,7 +29,7 @@ const Username = (props) => {
 
 const Review = (props) => {
   return(
-    <div className="review">
+    <div className="post-review">
       {props.review}
     </div>
   )
@@ -35,15 +38,9 @@ const Review = (props) => {
 const PostBody = (props) => {
   return(
     <PostBox>
-      <div className="inner-body">
-        <div className="body">
-          <div className="inner-body">
-            <Username username={props.username}/>
-            <Location location={props.location}/>
-          </div>
-          <Review review={props.review}/>
-        </div>
-      </div>
+        <Username username={props.username}/>
+        <Review review={props.review}/>
+        {/*<Location location={props.location}/>*/}
     </PostBox>
   )
 }
