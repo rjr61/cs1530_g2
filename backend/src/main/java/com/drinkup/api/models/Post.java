@@ -100,10 +100,10 @@ public class Post implements Comparable<Post>{
     public void setDislikes(int dislikes) {
         this.dislikes = dislikes;
     }
-    public boolean incLikes() {
+    public void incLikes() {
     	this.likes++;
     }
-    public boolean decLikes() {
+    public void decLikes() {
     	this.dislikes++;
     }
     
