@@ -80,7 +80,7 @@ class App extends Component {
       <div className="App-content">
         <div className="App-header">
           <Navbar bg="dark" variant="dark" sticky="top">
-            <Navbar.Brand href="#/">DrinkUp</Navbar.Brand>
+            <Navbar.Brand href="/">DrinkUp</Navbar.Brand>
             <Nav>
               <Nav.Link href="#feed">Feed</Nav.Link>
             </Nav>
@@ -92,7 +92,7 @@ class App extends Component {
             </Nav>
           </Navbar>
         </div>
-       {/*] <div className="App-body">
+       <div className="App-body">
         {postData.map((user, index) => {
             let username = `${user.username}`
             let location = `${user.location}`
@@ -108,7 +108,7 @@ class App extends Component {
           })}
         </div>
         <div id="refresh-button">Refresh</div>
-          {/*
+        {/* 
           {[...this.state.users].map((user, index) => {
             let username = `${user.username}`
             let location = `${user.location}`
@@ -122,7 +122,7 @@ class App extends Component {
                 />
             )
           })}
-        </div>
+          */}
       </div>
     );
   }
