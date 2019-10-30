@@ -25,22 +25,18 @@ class ResultsView(generic.DetailView):
 
 def vote(request, post_id):
     post = get_object_or_404(Post, pk=post_id)
-    try:
-        selected_choice = request.POST['vote']
-    except (KeyError):
-        # Redisplay the question voting form.
-        return render(request, 'posts/detail.html', {
-            'post': post,
-            'error_message': "You didn't select a choice.",
-        })
-    else:
-        if selected_choice == 'upvote':
-            post.post_score += 1
-            post.save()
-        elif selected_choice == 'downvote':
-            post.post_score -= 1
-            post.save()
-        # Always return an HttpResponseRedirect after successfully dealing
-        # with POST data. This prevents data from being posted twice if a
-        # user hits the Back button.
-        return HttpResponseRedirect(reverse('posts:results', args=(post.id,)))
+    post.post_score += 1
+    post.save()
+    # Always return an HttpResponseRedirect after successfully dealing
+    # with POST data. This prevents data from being posted twice if a
+    # user hits the Back button.
+    return HttpResponseRedirect(reverse('posts:index'))
+
+def down_vote(request, post_id):
+    post = get_object_or_404(Post, pk=post_id)
+    post.post_score -= 1
+    post.save()
+    # Always return an HttpResponseRedirect after successfully dealing
+    # with POST data. This prevents data from being posted twice if a
+    # user hits the Back button.
+    return HttpResponseRedirect(reverse('posts:index'))

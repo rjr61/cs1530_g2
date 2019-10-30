@@ -7,7 +7,34 @@
 
 {% if latest_post_list %}
     {% for post in latest_post_list %}
-        <div class='post-body'><a href="{% url 'posts:detail' post.id %}">{{ post.post_text }}</a></div>
+        <div>
+        
+        <div class='post-body'>
+            <div class="post-info">
+                <div class='post-author'>{{post.post_author}}</div>
+                <div class="post_drink"><a href="{% url 'posts:detail' post.id %}">{{ post.post_drink }}</a></div>
+                <div class='post-location'>{{post.post_location}}</div>
+            </div>
+            <div class="post-content">
+                <img src="/{{post.post_url}}" class="drink-img"> 
+                <div class='post-text'>{{post.post_text}}</div>
+                
+            </div>
+            <div class="post-likes">
+                    <div class="post-score">
+                        <form action="{% url 'posts:vote' post.id %}" method="post">
+                            {% csrf_token %}
+                            <input type="image" width="15px" height="15px" alt="submit" src="static/posts/upvote.png" name="vote" value="vote">
+                        </form>
+                        <div padding-left="20px">{{post.post_score}}</div>
+                        <form action="{% url 'posts:down_vote' post.id %}" method="post">
+                            {% csrf_token %}
+                            <input type="image" width="15px" margin-top="5px" height="15px" alt="submit" src="static/posts/downvote.png" name="downvote" value="downvote">
+                        </form>
+                    </div>
+                    <div class="post-date">{{post.pub_date}}</div> 
+            </div> 
+        </div>
     {% endfor %}
 {% else %}
     <p>No posts are available.</p>
