@@ -13,6 +13,24 @@ class IndexView(generic.ListView):
         """Return the last five published posts."""
         return Post.objects.order_by('-pub_date')[:5]
 
+class TrendingView(generic.ListView):
+    template_name = 'posts/index.html'
+    context_object_name = 'latest_post_list'
+
+    def get_queryset(self):
+        """Return the last five published posts."""
+        return Post.objects.order_by('-post_score')[:5]
+
+
+##Well come back to dis guy 
+class LocationView(generic.ListView):
+    template_name = 'posts/index.html'
+    context_object_name = 'latest_post_list'
+
+    def get_queryset(self,location):
+        """Return the last five published posts."""
+        return Post.objects.where('post_location == @location')[:5]
+
 
 class DetailView(generic.DetailView):
     model = Post

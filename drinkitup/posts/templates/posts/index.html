@@ -21,12 +21,14 @@
                     <div class="post-score">
                         <form action="{% url 'posts:vote' post.id %}" method="post">
                             {% csrf_token %}
-                            <input type="image" width="15px" height="15px" alt="submit" src="static/posts/upvote.png" name="vote" value="vote">
+                            {% load static %}
+                            <input type="image" width="15px" height="15px" alt="submit" src="{% static 'posts/upvote.png' %}" name="vote" value="vote">
                         </form>
                         <div padding-left="20px">{{post.post_score}}</div>
                         <form action="{% url 'posts:down_vote' post.id %}" method="post">
                             {% csrf_token %}
-                            <input type="image" width="15px" margin-top="5px" height="15px" alt="submit" src="static/posts/downvote.png" name="downvote" value="downvote">
+                            {% load static %}
+                            <input type="image" width="15px" margin-top="5px" height="15px" alt="submit" src="{% static 'posts/downvote.png' %}" name="downvote" value="downvote">
                         </form>
                     </div>
                     <div class="post-date">{{post.pub_date}}</div> 
