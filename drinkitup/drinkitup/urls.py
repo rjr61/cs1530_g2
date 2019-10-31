@@ -28,4 +28,7 @@ urlpatterns = [
 
     # admin page
     path('admin/', admin.site.urls),
+
+    # profile page
+    path('profile/', include('profile.urls')),
 ]
