@@ -1,9 +1,6 @@
 {% extends "posts/base.html" %}
 
-{% block content %}
-
-{% load static %}
-  <link rel="stylesheet" type="text/css" href="{% static 'posts/index-style.css' %}">
+{% block index %}
 
 {% if latest_post_list %}
     {% for post in latest_post_list %}
