@@ -1,8 +1,22 @@
-{% extends "profile/profile.html" %}
+{% extends "posts/base.html" %}
 
-{% block login %}
-<div class="login-content">
+{% block title %}Login{% endblock %}
+
+{% block content %}
+<div class="login-container">
+  <h2>Login</h2>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Login</button>
+  </form>
+</div>
+{% endblock %}
+
+<!--
+    <div class="login-content">
     <form class="modal-content animate" action="#" method="post">
+        {% csrf_token %}
         <div class="imgcontainer">
             <span onclick="document.getElementById('id01').style.display='none'" class="close"
                 title="Close Modal">&times;</span>
@@ -25,5 +39,4 @@
         </div>
     </form>
 </div>
-
-{% endblock %}
+-->

@@ -31,4 +31,5 @@ urlpatterns = [
 
     # profile page
     path('profile/', include('profile.urls')),
+    path('profile/', include('django.contrib.auth.urls')),
 ]

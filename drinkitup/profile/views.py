@@ -6,4 +6,4 @@ from django.views import generic
 # from .models import User
 
 def profile(request):
-    return render(request, 'profile/profile-index.html')
+    return render(request, 'profile/login.html')

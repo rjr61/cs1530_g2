@@ -5,9 +5,6 @@ from django.views import generic
 
 from .models import Post
 
-def profile(request):
-    return render(request, 'profile/profile-index.html')
-
 class IndexView(generic.ListView):
     template_name = 'posts/index.html'
     context_object_name = 'latest_post_list'

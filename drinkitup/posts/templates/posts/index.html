@@ -1,7 +1,7 @@
 {% extends "posts/base.html" %}
 
-{% block index %}
-
+{% block content %}
+<div class="index-container">
 {% if latest_post_list %}
     {% for post in latest_post_list %}
         <div>
@@ -36,5 +36,6 @@
 {% else %}
     <p>No posts are available.</p>
 {% endif %}
+</div>
 
 {% endblock %}

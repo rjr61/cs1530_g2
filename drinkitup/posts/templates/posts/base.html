@@ -11,12 +11,13 @@
   {% load static %}
   <link rel="stylesheet" type="text/css" href="{% static 'posts/base-style.css' %}">
   <link rel="stylesheet" type="text/css" href="{% static 'posts/index-style.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'profile/profile-style.css' %}">
 </head>
 
 <body>
   <div class="body-content">
     <div >{% include "posts/navbar.html" %}</div>
-    <div class="index-container">{% block index %}{% endblock %}</div>
+    {% block content %}{% endblock %}
   </div>
 </body>
 
