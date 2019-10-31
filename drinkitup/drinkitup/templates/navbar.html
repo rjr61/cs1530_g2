@@ -2,18 +2,31 @@
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #15202a;">
   <a class="navbar-brand" href="/">
     {% load static %}
-    <img src="{% static 'posts/logo.gif' %}" width="50" height="50" padding-left="5px"
-      class="d-inline-block align-top" alt="">
+    <img src="{% static 'posts/logo.gif' %}" width="50" height="50" padding-left="5px" class="d-inline-block align-top"
+      alt="">
     <div>DrinkUp</div>
   </a>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="/">Trending<span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="">New</a>
+      <a class="nav-item nav-link active" href="/">Home<span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="{% url 'posts:trends'%}">Trending</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Dropdown link
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <form action="{% url 'posts:location'  %}" method="post" class="form-inline">
+          {% csrf_token %}
+            <input class="form-control mr-sm-2" name="location" type="search" placeholder="Filter Location" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </li>
       <a class="navbar-brand" href="{% url 'profile:index' %}">
-          {% load static %}
-          <img src="{% static 'posts/profile.png' %}" width="50" height="50" alt="Profile.png">
+        {% load static %}
+        <img src="{% static 'posts/profile.png' %}" width="50" height="50" alt="Profile.png">
       </a>
     </div>
   </div>
