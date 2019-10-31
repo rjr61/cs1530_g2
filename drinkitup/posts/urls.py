@@ -1,10 +1,11 @@
 from django.urls import path
+from django.contrib.auth.decorators import login_required
 
 from . import views
 
 app_name = 'posts'
 urlpatterns = [
-    path('', views.IndexView.as_view(), name='index'),
+    path('', login_required(views.IndexView.as_view(), login_url='login/'), name='index'),
     path('trending/', views.TrendingView.as_view(), name='trends'),
     path('location/', views.LocationView.as_view(), name='location'),
     path('<int:pk>/', views.DetailView.as_view(), name='detail'),
