@@ -23,13 +23,12 @@ urlpatterns = [
     # path('', IndexView.as_view(), name='home'),
     # path('posts/', include('posts.urls')),
     
-    ### option 2
     path('', include('posts.urls')),
+    path('', include('django.contrib.auth.urls')),
 
     # admin page
     path('admin/', admin.site.urls),
 
     # profile page
     path('profile/', include('profile.urls')),
-    path('profile/', include('django.contrib.auth.urls')),
 ]

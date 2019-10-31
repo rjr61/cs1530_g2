@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>DrinkUp</title>
+  <title>{% block title %}{% endblock %}</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -11,7 +11,9 @@
   {% load static %}
   <link rel="stylesheet" type="text/css" href="{% static 'posts/base-style.css' %}">
   <link rel="stylesheet" type="text/css" href="{% static 'posts/index-style.css' %}">
-  <link rel="stylesheet" type="text/css" href="{% static 'profile/profile-style.css' %}">
+  <!--
+    <link rel="stylesheet" type="text/css" href="{% static 'profile/profile-style.css' %}">
+  -->
 </head>
 
 <body>

@@ -10,8 +10,8 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a class="nav-item nav-link active" href="/">Trending<span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="#">New</a>
-      <a class="navbar-brand" href="profile/">
+      <a class="nav-item nav-link" href="">New</a>
+      <a class="navbar-brand" href="{% url 'profile:index' %}">
           {% load static %}
           <img src="{% static 'posts/profile.png' %}" width="50" height="50" alt="Profile.png">
       </a>
