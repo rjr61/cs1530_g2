@@ -22,3 +22,6 @@ a) https://docs.python-guide.org/dev/virtualenvs/
 5b. If you have completed the previous steps correctly, there still should be 1 or 2 errors that you need to fix (thx StackOverflow)
 
 6. shut down virual environment using `deactivate`
+
+# Bugs to fix:
+1. Clicking on a navbar link multiple times appends the url to the end and errors

@@ -55,3 +55,6 @@ yarn-error.log*
 
 # dynamo db local instance
 *.db
+
+# pycache files
+*.pyc
