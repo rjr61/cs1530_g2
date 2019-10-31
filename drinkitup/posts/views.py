@@ -2,7 +2,7 @@ from django.shortcuts import get_object_or_404, render
 from django.urls import reverse
 from django.http import HttpResponseRedirect
 from django.views import generic
-
+from django import forms 
 from .models import Post
 
 class IndexView(generic.ListView):
@@ -13,7 +13,7 @@ class IndexView(generic.ListView):
         """Return the last five published posts."""
         return Post.objects.order_by('-pub_date')[:5]
 
-class TrendingView(generic.ListView):
+class TrendingView(generic.ListView,):
     template_name = 'posts/index.html'
     context_object_name = 'latest_post_list'
 
@@ -22,14 +22,21 @@ class TrendingView(generic.ListView):
         return Post.objects.order_by('-post_score')[:5]
 
 
-##Well come back to dis guy 
 class LocationView(generic.ListView):
     template_name = 'posts/index.html'
     context_object_name = 'latest_post_list'
 
-    def get_queryset(self,location):
+    def get_queryset(self):
         """Return the last five published posts."""
-        return Post.objects.where('post_location == @location')[:5]
+        return Post.objects.filter(post_location=location)
+
+##Well come back to dis guy 
+def location(request):
+    def get_queryset(self,request):
+        location = request.POST['location']
+        """Return the last five published posts."""
+        return HttpResponseRedirect(reverse('posts:view_location'),args=location)
+        
 
 
 class DetailView(generic.DetailView):
