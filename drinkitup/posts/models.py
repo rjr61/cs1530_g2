@@ -5,11 +5,11 @@ from django.utils import timezone
 
 class Post(models.Model):
     post_author = models.CharField(max_length=64)
-    post_drink = models.CharField(max_length=64)
+    post_drink = models.CharField(max_length=64, null=True)
     post_text = models.CharField(max_length=200)
-    post_location = models.CharField(max_length=64)
+    post_location = models.CharField(max_length=64, null=True)
     post_score = models.IntegerField(default=0)
-    post_url = models.CharField(max_length=64)
+    post_url = models.CharField(max_length=64, null=True)
     pub_date = models.DateTimeField('date published')
 
     def __str__(self):
