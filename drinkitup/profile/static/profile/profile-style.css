@@ -10,11 +10,11 @@ body {
   justify-content: center;
   align-items: center;
 
-  margin: 2% 0;
+  margin: 6% 0;
 }
 
 .login-content {
-  width: 40%;
+  width: 36%;
 }
 
 .form-content {
@@ -30,7 +30,7 @@ body {
 
 #input-div {
   margin-right: auto;
-  padding: 5%;
+  padding: 10%;
 }
 
 
