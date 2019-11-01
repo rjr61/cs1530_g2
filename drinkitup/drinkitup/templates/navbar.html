@@ -75,9 +75,9 @@
           Location
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <form action="{% url 'posts:location'  %}" method="post" class="form-inline">
+          <form action="{% url 'posts:location'%}" method="post" class="form-inline">
           {% csrf_token %}
-            <input class="form-control mr-sm-2" name="location" type="search" placeholder="Filter Location" aria-label="Search">
+            <input class="form-control mr-sm-2" name="location" id="location" value="location" type="search" placeholder="Filter Location" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </form>
         </div>
