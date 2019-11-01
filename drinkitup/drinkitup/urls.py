@@ -22,9 +22,13 @@ urlpatterns = [
     ### option 1
     # path('', IndexView.as_view(), name='home'),
     # path('posts/', include('posts.urls')),
-    
-    path('', include('posts.urls')),
+
+    # include authorization for feed and profile
     path('', include('django.contrib.auth.urls')),
+    path('profile/', include('django.contrib.auth.urls')),
+    
+    # index path
+    path('', include('posts.urls')),
 
     # admin page
     path('admin/', admin.site.urls),
