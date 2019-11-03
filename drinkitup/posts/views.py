@@ -4,6 +4,7 @@ from django.http import HttpResponseRedirect
 from django.views import generic
 from django import forms 
 from .models import Post
+from django.views.decorators.http import require_http_methods
 
 class IndexView(generic.ListView):
     template_name = 'posts/index.html'
@@ -21,21 +22,22 @@ class TrendingView(generic.ListView,):
         """Return the last five published posts."""
         return Post.objects.order_by('-post_score')[:5]
 
-
+@require_http_methods(["GET", "POST"])
 class LocationView(generic.ListView):
     template_name = 'posts/index.html'
     context_object_name = 'latest_post_list'
-
-    def get_queryset(self):
+    
+    def get_queryset(self,request):
+        location = request.POST['location']
         """Return the last five published posts."""
         return Post.objects.filter(post_location=location)
 
 ##Well come back to dis guy 
-def location(request):
-    def get_queryset(self,request):
-        location = request.POST['location']
-        """Return the last five published posts."""
-        return HttpResponseRedirect(reverse('posts:view_location'),args=location)
+#def location(request):
+#    def get_queryset(self,request):
+ #       location = request.POST['location']
+ #       """Return the last five published posts."""
+ #       return HttpResponseRedirect(reverse('posts:view_location'),args=location)
         
 
 
