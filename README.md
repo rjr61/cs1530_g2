@@ -24,4 +24,4 @@ a) https://docs.python-guide.org/dev/virtualenvs/
 6. shut down virual environment using `deactivate`
 
 # Bugs to fix:
-1. Clicking on a navbar link multiple times appends the url to the end and errors
+1. Clicking forgot password goes to profile/forgot_password (not serious at all)

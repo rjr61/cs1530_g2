@@ -1,109 +1,44 @@
-/* Full-width input fields */
-
-body {
-  background-color: lightblue;
-}
-
-.login-container {
+.profile-content {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-
-  margin: 2% 0;
-}
-
-.login-content {
-  width: 40%;
-}
-
-.form-content {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
+  margin: 4% auto;
+  width: 50%;
+
+  background-color: white;
+  border: 2px solid grey;
+  border-radius: 4px;
 }
 
-.form-input {
-  padding: 0 20px;
+.profile-image {
+  margin: 6% 0 2%;
 }
 
-#input-div {
-  margin-right: auto;
-  padding: 5%;
+.profile-fields {
+  margin: 4% 0 4%;
+  width: 75%;
 }
 
-
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
-
-/* Set a style for all buttons */
-
-#login-button {
-  background-color: #15202a;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  display: inline-block;
-  width: 40%;
-}
-
-#button-div {
-  width: 100%;
+.field-container {
+  clear: both;
   text-align: center;
+  padding: 4px 0;
 }
 
-button:hover {
-  opacity: 0.8;
+.field-label {
+  float: left;
 }
 
-/* Center the image and position the close button */
+.field-content {
+  float: right;
+} 
 
-.imgcontainer {
+.profile-options {
+  margin: 4% 0 6%;
+}
+
+.option-container {
   text-align: center;
-  margin: 24px 0 12px 0;
-  position: relative;
-}
-
-img.avatar {
-  width: 40%;
-  border-radius: 50%;
-}
-
-/* Add Zoom Animation */
-
-.animate {
-  -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s
-}
-
-@-webkit-keyframes animatezoom {
-  from {
-    -webkit-transform: scale(0)
-  }
-  to {
-    -webkit-transform: scale(1)
-  }
-}
-
-@keyframes animatezoom {
-  from {
-    transform: scale(0)
-  }
-  to {
-    transform: scale(1)
-  }
-}
-
-/* Change styles for span and cancel button on extra small screens */
-
-@media screen and (max-width: 300px) {
+  padding: 4px 0;
 }
