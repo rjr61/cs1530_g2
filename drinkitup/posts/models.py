@@ -9,11 +9,11 @@ class Post(models.Model):
     post_text = models.CharField(max_length=200)
     post_location = models.CharField(max_length=64, null=True)
     post_score = models.IntegerField(default=0)
-    post_url = models.CharField(max_length=64, null=True)
-    pub_date = models.DateTimeField('date published')
+    post_url = models.CharField(max_length=64, null=True, default="static/posts/index.svg")
+    pub_date = models.DateTimeField('date published', default = timezone.now)
 
     def __str__(self):
-        return self.post_text
+        return self.post_drink
 
     def was_published_recently(self):
         return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
