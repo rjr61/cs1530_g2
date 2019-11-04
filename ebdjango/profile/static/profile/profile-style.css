@@ -1,0 +1,44 @@
+.profile-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  margin: 4% auto;
+  width: 50%;
+
+  background-color: white;
+  border: 2px solid grey;
+  border-radius: 4px;
+}
+
+.profile-image {
+  margin: 6% 0 2%;
+}
+
+.profile-fields {
+  margin: 4% 0 4%;
+  width: 75%;
+}
+
+.field-container {
+  clear: both;
+  text-align: center;
+  padding: 4px 0;
+}
+
+.field-label {
+  float: left;
+}
+
+.field-content {
+  float: right;
+} 
+
+.profile-options {
+  margin: 4% 0 6%;
+}
+
+.option-container {
+  text-align: center;
+  padding: 4px 0;
+}
