@@ -26,9 +26,10 @@ SECRET_KEY = os.environ['SECRET_KEY']
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'localhost',
-    '127.0.0.1',
-    'ebdjango-dev2222.us-east-1.elasticbeanstalk.com',
+    'localhost', # how ryan likes to connect
+    '127.0.0.1', # how chris likes to connect
+    'ebdjango-dev2222.us-east-1.elasticbeanstalk.com', # update this when url changes
+    '172.31.19.34', # eb health checker
 ]
 
 
@@ -141,7 +142,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'ebdjango/static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 
 #STATICFILES_DIRS = [
 #    os.path.join(BASE_DIR, 'ebdjango/static'), 
