@@ -142,9 +142,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'ebdjango/static')
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'ebdjango/static'), 
-]
+
+#STATICFILES_DIRS = [
+#    os.path.join(BASE_DIR, 'ebdjango/static'), 
+#]
 
 # Redirect to home URL after login (Default redirects to /accounts/profile/)
 LOGIN_REDIRECT_URL = '/'
