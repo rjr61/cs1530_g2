@@ -1,7 +1,0 @@
-<h1>{{ post.post_id }}</h1>
-
-<p>
-    {{ post.post_text }} -- {{ post.post_score }} vote{{ post.post_score|pluralize }}
-</p>
-
-<a href="{% url 'posts:detail' post.id %}">Vote again?</a>
