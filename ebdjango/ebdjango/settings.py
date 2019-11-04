@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
-    'aws-drinkitup-dev.us-east-1.elasticbeanstalk.com',
+    'ebdjango-dev2222.us-east-1.elasticbeanstalk.com',
 ]
 
 
