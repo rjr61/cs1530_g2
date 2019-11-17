@@ -39,7 +39,8 @@
     flex-direction: row;
 }
 .drink-img{
-    width:15%;
+    width: 50px;
+    height: 50px;
 }
 .post-likes{
     justify-content:right;

@@ -7,14 +7,19 @@ from django import forms
 from .models import Post
 from django.views.decorators.http import require_http_methods
 from django.template import loader
+from django.utils import timezone
 
 class IndexView(generic.ListView):
     template_name = 'posts/index.html'
     context_object_name = 'latest_post_list'
 
     def get_queryset(self):
-        """Return the last five published posts."""
-        return Post.objects.order_by('-pub_date')[:5]
+        """
+        Return the last five published questions (not including those set to be
+        published in the future).
+        """
+        return Post.objects.filter(
+            pub_date__lte=timezone.now()).order_by('-pub_date')[:5]
 
 class TrendingView(generic.ListView,):
     template_name = 'posts/index.html'
@@ -70,7 +75,14 @@ def down_vote(request, post_id):
 
 def upload(request):
     post_dict = request.POST
-    post = Post(post_author=post_dict['post_author'],post_drink=post_dict['post_drink'],post_location = post_dict['post_location'], post_text = post_dict['post_text'])
+    post = Post(
+        post_author=post_dict['post_author'],
+        post_drink=post_dict['post_drink'],
+        post_location = post_dict['post_location'],
+        post_text = post_dict['post_text'],
+        drink_type = post_dict['drink_type'],
+        post_url = 'posts/' + post_dict['drink_type'] + '.png'
+    )
     result = post.save()
     print (str(result))
     return HttpResponseRedirect(reverse('posts:index'))
