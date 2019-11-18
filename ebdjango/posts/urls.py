@@ -8,6 +8,7 @@ urlpatterns = [
     path('', login_required(views.IndexView.as_view(), login_url='login/'), name='index'),
     path('trending/', views.TrendingView.as_view(), name='trends'),
     path('location/', views.location, name='location'),
+    path('locations/', views.locations, name='locations'),
     path('form/', views.form, name='form'),
     path('upload/', views.upload, name='upload'),
     path('<int:pk>/', views.DetailView.as_view(), name='detail'),

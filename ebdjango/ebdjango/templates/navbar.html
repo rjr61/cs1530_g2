@@ -23,7 +23,8 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <form action="{% url 'posts:location'  %}" method="post" class="form-inline">
-                <input class="form-control mr-sm-2" name="location" type="search" placeholder="Filter Location" aria-label="Search">
+              {% csrf_token %}
+                <input class="form-control basicAutoComplete" type="search" autocomplete="off" name="location" minLength = "1" placeholder="Filter Location" aria-label="Search" data-url="{% url 'posts:locations'%}">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
               </form>
             </div>
