@@ -1,34 +1,39 @@
 {% extends "base.html" %}
-{% block title %}Post{% endblock %}
+
+{% block title %}Upload{% endblock %}
 
 {% block content %}
-    <div class="form-container" >
+    <div class="form-container center_div" >
     <form action="{% url 'posts:upload' %}" method="post">
         {% csrf_token %}
         <div class="form-group">
         <input type="hidden" class="form-control" name="post_author" id = "username" value="{{ user.get_username }}" size="64" >
         <div class="form-group">
         <label for="drink">Drink Name:</label>
-        <input type="text" class="form-control form-control-sm" name="post_drink" id = "drink" value="drink" size="64" >
+        <input type="text" class="form-control" name="post_drink" id = "drink" size="64" >
         </div>
         <div class="form-group">
         <label for="drink">Location:</label>
-        <input type="text" class="form-control form-control-sm"  name="post_location" id = "location" value="location" size="64">
+        <input type="text" class="form-control mdb-autocomplete"  name="post_location" id = "location" size="64">
         </div>
         <div class="form-group">
         <label for="drink">Review:</label>
-        <input type="text" class="form-control form-control-lg" name="post_text" id = "review" value="review" size = "200">
+        <textarea type="text" class="form-control" name="post_text" id = "review" value="review" rows=3></textarea>
         </div>
         <div class="form-group">
         <label for="drink">Drink Type:</label>
-            <select name="drink_type" id ="type">
+            <select class="form-control" name="drink_type" id ="type">
                 <option value="cocktail">Cocktail</option>
                 <option value="beer">Beer</option>
                 <option value="wine">Wine</option>
                 <option value="shot">Shot</option>
             </select>
         </div>
-        <input type="submit" value="upload">
+        <div class="form-group">
+            <label for="drink">File upload:</label>
+            <input type="file" class="form-control-file" id="file">
+          </div>
+          <button type="submit" class="btn btn-primary" value="upload">Submit</button>
     </form>
     </div>
 {% endblock %}
