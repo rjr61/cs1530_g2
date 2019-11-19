@@ -41,5 +41,10 @@ class Comments(models.Model):
     def __str__(self):
         return self.comment_text
 
-    def was_published_recently(self):
-        return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
+
+class Likers(models.Model):
+    post = models.ForeignKey(Post, on_delete=models.CASCADE)
+    like_author = models.CharField(max_length=64)
+    val = models.BooleanField()
+    def __str__(self):
+        return self.like_author
