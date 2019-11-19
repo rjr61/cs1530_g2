@@ -95,3 +95,15 @@ def locations(request):
                 return JsonResponse(json, safe=False)
             else:
                 HttpResponse("Did not work")
+
+def drink_type(request):
+    drink_type = request.POST['options']
+    print("This is the drinktype: "+ drink_type)
+    loc_post_list = Post.objects.filter(drink_type=drink_type)    
+    print("This is post list: "+ str(loc_post_list))
+    """Return the posts filtered by location"""
+    template = loader.get_template('posts/index.html')
+    context = {
+        'latest_post_list': loc_post_list,
+    }
+    return HttpResponse(template.render(context, request))
