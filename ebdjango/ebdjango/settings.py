@@ -152,6 +152,8 @@ STATICFILES_DIRS = [
 # Redirect to home URL after login (Default redirects to /accounts/profile/)
 LOGIN_REDIRECT_URL = '/'
 
+LOGOUT_REDIRECT_URL = '/'
+
 # Controls where Django stores session data
 # https://docs.djangoproject.com/en/2.2/ref/settings/#std:setting-SESSION_ENGINE
 SESSION_ENGINE = 'django.contrib.sessions.backends.file'
