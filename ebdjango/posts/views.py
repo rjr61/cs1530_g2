@@ -18,8 +18,7 @@ class IndexView(generic.ListView):
         Return the last five published questions (not including those set to be
         published in the future).
         """
-        return Post.objects.filter(
-            pub_date__lte=timezone.now()).order_by('-pub_date')[:5]
+        return Post.objects.filter(pub_date__lte=timezone.now()).prefetch_related('likes').order_by('-pub_date')[:5]
 
 class TrendingView(generic.ListView,):
     template_name = 'posts/index.html'
