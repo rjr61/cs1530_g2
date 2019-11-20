@@ -61,3 +61,6 @@ yarn-error.log*
 
 # session
 ebdjango/sessions/*
+
+# sqlite file
+db.sqlite3
