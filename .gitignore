@@ -60,7 +60,7 @@ yarn-error.log*
 *.pyc
 
 # session
-ebdjango/sessions/*
+sessionid*
 
 # sqlite file
 db.sqlite3
