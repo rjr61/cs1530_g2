@@ -25,7 +25,9 @@ urlpatterns = [
 
     # include authorization for feed and profile
     path('', include('django.contrib.auth.urls')),
-    path('profile/', include('django.contrib.auth.urls')),
+
+    path('accounts/', include('accounts.urls')),
+    path('accounts/', include('django.contrib.auth.urls')),
     
     # index path
     path('', include('posts.urls')),
