@@ -1,0 +1,1038 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head><title>
+	PLCB PRODUCTION (4) (Public) | License Search / Data Export
+</title><meta http-equiv="cache-control" content="no-cache" /><meta http-equiv="pragma" content="no-cache" /><link href="css/global.css <view-source:https://plcbplus.pa.gov/pub/css/global.css>" rel="stylesheet" type="text/css" /><link href="css/layout.css <view-source:https://plcbplus.pa.gov/pub/css/layout.css>" rel="stylesheet" type="text/css" /><link href="css/header.css <view-source:https://plcbplus.pa.gov/pub/css/header.css>" rel="stylesheet" type="text/css" /><link href="css/buttons.css <view-source:https://plcbplus.pa.gov/pub/css/buttons.css>" rel="stylesheet" type="text/css" /><link href="css/tabs.css <view-source:https://plcbplus.pa.gov/pub/css/tabs.css>" rel="stylesheet" type="text/css" />
+	<link rel="shortcut icon" href="/pub/favicon.ico <view-source:https://plcbplus.pa.gov/pub/favicon.ico>" type="image/x-icon" />
+	<!--[if IE 7]>
+	      <link href="css/ie7.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+  <link href="css/insertmenu.css <view-source:https://plcbplus.pa.gov/pub/css/insertmenu.css>" rel="stylesheet" type="text/css" /><link rel="stylesheet" type="text/css" href="javascript/extjs/resources/css/ext-all-notheme.css <view-source:https://plcbplus.pa.gov/pub/javascript/extjs/resources/css/ext-all-notheme.css>" /><link rel="stylesheet" type="text/css" href="javascript/extjs/resources/css/xtheme-gray.css <view-source:https://plcbplus.pa.gov/pub/javascript/extjs/resources/css/xtheme-gray.css>" />
+
+	<script src="javascript/posseglobal.js? <view-source:https://plcbplus.pa.gov/pub/javascript/posseglobal.js?>"
+		language="javascript" type="text/javascript"></script>
+
+	<script src="javascript/posseextension.js? <view-source:https://plcbplus.pa.gov/pub/javascript/posseextension.js?>"
+		language="javascript" type="text/javascript"></script>
+
+  <script type="text/javascript" src="javascript/extjs/adapter/ext/ext-base.js <view-source:https://plcbplus.pa.gov/pub/javascript/extjs/adapter/ext/ext-base.js>"></script>
+  <script type="text/javascript" src="javascript/extjs/ext-all.js <view-source:https://plcbplus.pa.gov/pub/javascript/extjs/ext-all.js>"></script>
+
+  <script src="javascript/jquery-ui-1.8.5.custom\js\jquery-1.4.2.min.js <view-source:https://plcbplus.pa.gov/pub/javascript/jquery-ui-1.8.5.custom/js/jquery-1.4.2.min.js>" language="javascript" type="text/javascript"></script>
+  <script src="javascript/jquery-ui-1.8.5.custom\js\jquery-ui-1.8.5.custom.min.js <view-source:https://plcbplus.pa.gov/pub/javascript/jquery-ui-1.8.5.custom/js/jquery-ui-1.8.5.custom.min.js>" language="javascript" type="text/javascript"></script>
+  <link rel="stylesheet" href="css/jquery-ui-1.8.5.custom.css <view-source:https://plcbplus.pa.gov/pub/css/jquery-ui-1.8.5.custom.css>" />
+  <style type="text/css">
+      div.ui-datepicker{
+      font-size : 9pt;
+      }
+  </style>
+
+	
+	</head>
+<body class="master"  onload='PosseOnLoad(); disablelistprocessor(); initializeValidatedValues();' onunload='PossePwClose(true)'>
+    <form method="post" action="./Default.aspx?PossePresentation=LicenseSearch <view-source:https://plcbplus.pa.gov/pub/Default.aspx?PossePresentation=LicenseSearch>" id="aspnetForm" onsubmit="return false">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNjU1MjcxNjg0DxYCHhNWYWxpZGF0ZVJlcXVlc3RNb2RlAgEWAmYPZBYCAgEPFgIeCG9uc3VibWl0BQxyZXR1cm4gZmFsc2UWBAIFD2QWAgIBD2QWBgIBDw8WAh4HVmlzaWJsZWhkZAIDDw8WAh8CaGRkAgUPZBYCAgEPZBYCZg9kFgJmD2QWAmYPZBYCAgEPD2QWAh4Hb25jbGljawUkcmV0dXJuIGNwaFRvcEJhbmRfY3RsMDNfU2VhcmNoX2ZuKCk7FgJmDw8WAh4EVGV4dAUMU2VhcmNoIEFnYWluZGQCBw9kFgICAQ9kFgICAQ9kFgJmD2QWAmYPZBYCZg9kFgICAQ8PZBYCHwMFL3JldHVybiBjcGhCb3R0b21GdW5jdGlvbkJhbmRfY3RsMDNfU2VhcmNoX2ZuKCk7FgJmDw8WAh8EBQxTZWFyY2ggQWdhaW5kZGTcGpN6ldS0vIKRH1s8MjCj7cll1w==" />
+</div>
+
+
+<script type="text/javascript">
+//<![CDATA[
+function cphTopBand_ctl03_Search_fn(){if (vProcessFunctionLinks) {vProcessFunctionLinks=false; var validEntry = PosseSubmitLinkReturn('/pub/Default.aspx?PossePresentation=LicenseSearch', 4, 1535033); if (!validEntry) {vProcessFunctionLinks=true;}} return false;}
+function cphBottomFunctionBand_ctl03_Search_fn(){if (vProcessFunctionLinks) {vProcessFunctionLinks=false; var validEntry = PosseSubmitLinkReturn('/pub/Default.aspx?PossePresentation=LicenseSearch', 4, 1535033); if (!validEntry) {vProcessFunctionLinks=true;}} return false;}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="663495A6" />
+</div>
+	<!--div class="header" style="text-align: center;">
+        <div class="centerpanel">
+            <div class="sitelogo">
+                <a href="Default.aspx" title="Posse ABC">
+                    <img src="images/interface/headerlogo.png" alt="Posse ABC" />
+                </a>
+            </div>
+			<div class="welcomemessage">
+				
+	<div id="cphUserInfo_pnlUserInfo" class="userInfoPanel">
+	
+	<div>
+
+	</div>
+</div>
+
+			</div>
+            <div class="metanav">
+				<span><a href="ContactUs.aspx">Contact Us</a></span>
+            </div>
+        </div>
+    </div-->
+    <div id="container">
+        <div class="header">
+            <div class="header-left"><a href="http://www.lcb.state.pa.us/PLCB/index.htm <view-source:http://www.lcb.state.pa.us/PLCB/index.htm>"><img src="images/plcb/plcb_logo.png <view-source:https://plcbplus.pa.gov/pub/images/plcb/plcb_logo.png>"></a></div>
+            <div class="header-right"></div> 
+            <div class="clearfloat"></div>
+        </div>
+            <div class="menuband">
+                
+    <div id="cphShoppingCartMenu_pnlShoppingCartMenu">
+	
+	
+</div>
+
+	<div id="cphMenuBand_pnlMenuBand">
+	
+	<div class='nav'><ul id='navigation'><li><a href="Login.aspx <view-source:https://plcbplus.pa.gov/pub/Login.aspx>" title="Return to the homepage">Home</a></li></ul></div>
+</div>
+
+            </div>
+    <div class="contentbody" style="text-align: center;">
+        <div class="centerpanel">
+
+            <div class="TM">
+                <div class="page">
+                    <div class="helpicon">
+                        
+	<div id="cphHelpBand_pnlHelpBand">
+	
+	<div>
+		<div><a class = 'normallink' title = 'View help content for PLCB+' href= 'Help/ <view-source:https://plcbplus.pa.gov/pub/Help/>' target = '_blank'><span class='helpIconText'>Need Help?</span><img title='View help content for PLCB+' src='images/icons/plcb_helpicon.gif <view-source:https://plcbplus.pa.gov/pub/images/icons/plcb_helpicon.gif>' alt='Need Help?'></a></div>
+	</div>
+</div>
+
+                    </div>
+                    <div class="title">
+                        
+	<div id="cphTitleBand_pnlTitleBand">
+	
+	<div>
+		<span>License Search / Data Export</span>
+	</div>
+</div>
+
+                    </div>
+                    <div>
+                        
+	<div id="cphTopBand_pnlTopBand">
+	
+		
+		
+		<div class="rightButtons">
+            <div id="cphTopBand_pnlTopFunctionBand">
+		
+            <table border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td>
+<div class="button">
+    <a id="cphTopBand_ctl03_Search" tabindex="999" onclick="return cphTopBand_ctl03_Search_fn();"><span id="cphTopBand_ctl03_lblBtnLabel">Search Again</span></a>
+</div>
+</td>
+			</tr>
+		</table>
+
+	</div>
+        </div>
+		<div id="cphTopBand_pnlTabLabelBand">
+		
+	    
+	</div>
+	
+</div>
+
+                    </div>
+                    <div>
+                        <noscript>
+                            <center class="posseerror">
+                                JavaScript and Session Cookies must be enabled for this Site.</center>
+                        </noscript>
+                        
+	<div id="cphPaneBand_pnlPaneBand" class="datazone">
+	
+	    <div id="todolist"></div>
+	<table class="possegrid" border="0" cellspacing="0" cellpadding="2"><thead class="possegrid"><tr class="possegrid">
+<th class="possegrid" valign="bottom" colspan="1" style="cursor:pointer; text-align:left" title="Click to sort by LID # in reverse order" onclick="PosseSubmitLink('/pub/Default.aspx?PossePresentation=LicenseSearch',3,possedocumentchangeform.currentpaneid.value,'(1535035,0,-1)')">LID #</th>
+<th class="possegrid" valign="bottom" colspan="1" style="cursor:pointer; text-align:left" title="Click to sort by License<br>Number" onclick="PosseSubmitLink('/pub/Default.aspx?PossePresentation=LicenseSearch',3,possedocumentchangeform.currentpaneid.value,'(1535035,1,1)')">License<br>Number</th>
+<th class="possegrid" valign="bottom" colspan="1" style="cursor:pointer; text-align:left" title="Click to sort by <br>License Type" onclick="PosseSubmitLink('/pub/Default.aspx?PossePresentation=LicenseSearch',3,possedocumentchangeform.currentpaneid.value,'(1535035,2,1)')"><br>License Type</th>
+<th class="possegrid" valign="bottom" colspan="1" style="cursor:pointer; text-align:left" title="Click to sort by <br>Premises / Location" onclick="PosseSubmitLink('/pub/Default.aspx?PossePresentation=LicenseSearch',3,possedocumentchangeform.currentpaneid.value,'(1535035,3,1)')"><br>Premises / Location</th>
+<th class="possegrid" valign="bottom" colspan="1" style="cursor:pointer; text-align:left" title="Click to sort by <br>Licensee" onclick="PosseSubmitLink('/pub/Default.aspx?PossePresentation=LicenseSearch',3,possedocumentchangeform.currentpaneid.value,'(1535035,4,1)')"><br>Licensee</th>
+<th class="possegrid" valign="bottom" colspan="1" style="cursor:pointer; text-align:left" title="Click to sort by Status" onclick="PosseSubmitLink('/pub/Default.aspx?PossePresentation=LicenseSearch',3,possedocumentchangeform.currentpaneid.value,'(1535035,5,1)')">Status</th>
+<th class="possegrid" valign="bottom" colspan="1" style="cursor:pointer; text-align:left" title="Click to sort by Last Issued" onclick="PosseSubmitLink('/pub/Default.aspx?PossePresentation=LicenseSearch',3,possedocumentchangeform.currentpaneid.value,'(1535035,6,1)')">Last Issued</th>
+<th class="possegrid" valign="bottom" colspan="1" style="cursor:pointer; text-align:left" title="Click to sort by Expires" onclick="PosseSubmitLink('/pub/Default.aspx?PossePresentation=LicenseSearch',3,possedocumentchangeform.currentpaneid.value,'(1535035,7,1)')">Expires</th>
+<th class="possegrid" valign="bottom" colspan="1" style="text-align:left"></th>
+</tr></thead>
+<tbody class="posseband_1"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_73171816_sp" name="LID_Link_1535035_1402681_73171816_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_73171816" name="LID_Link_1535035_1402681_73171816" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_73171816', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=73171816', 1100, 500, 'LID_Link_1535035_1402681_73171816')">100587</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_73171816_sp" name="LicenseNumber_1535035_1402681_73171816_sp" class="possegrid" style="text-align: left">AN43606</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_73171816_sp" name="LicenseType_1535035_1402681_73171816_sp" class="possegrid" style="text-align: left">Alcohol Non-Beverage</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_73171816_sp" name="Premise_1535035_1402681_73171816_sp" class="possegrid" style="text-align: left"><b>TTMS INC</b><br/>5117 CENTRE AVE 
+<br>ROOM 2.31
+<br>PITTSBURGH PA 15213</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_73171816_sp" name="Licensee_1535035_1402681_73171816_sp" class="possegrid" style="text-align: left">TTMS INC</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_73171816_sp" name="State_1535035_1402681_73171816_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_73171816_sp" name="IssueDateFormatted_1535035_1402681_73171816_sp" class="possegrid" style="text-align: left">Sep 20, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_73171816_sp" name="FormattedExpirationDate_1535035_1402681_73171816_sp" class="possegrid" style="text-align: left">Dec 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_2"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_66090236_sp" name="LID_Link_1535035_1402681_66090236_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_66090236" name="LID_Link_1535035_1402681_66090236" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_66090236', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=66090236', 1100, 500, 'LID_Link_1535035_1402681_66090236')">11598</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_66090236_sp" name="LicenseNumber_1535035_1402681_66090236_sp" class="possegrid" style="text-align: left">R4844</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_66090236_sp" name="LicenseType_1535035_1402681_66090236_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_66090236_sp" name="Premise_1535035_1402681_66090236_sp" class="possegrid" style="text-align: left"><b>HEMINGWAY'S CAFE</b><br/>3911 FORBES AVE
+<br>PITTSBURGH PA 15213-3507</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_66090236_sp" name="Licensee_1535035_1402681_66090236_sp" class="possegrid" style="text-align: left">3911 FORBES AVE., INC.</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_66090236_sp" name="State_1535035_1402681_66090236_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_66090236_sp" name="IssueDateFormatted_1535035_1402681_66090236_sp" class="possegrid" style="text-align: left">Mar 18, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_66090236_sp" name="FormattedExpirationDate_1535035_1402681_66090236_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_1"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_64962447_sp" name="LID_Link_1535035_1402681_64962447_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_64962447" name="LID_Link_1535035_1402681_64962447" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_64962447', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=64962447', 1100, 500, 'LID_Link_1535035_1402681_64962447')">18060</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_64962447_sp" name="LicenseNumber_1535035_1402681_64962447_sp" class="possegrid" style="text-align: left">R16573</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_64962447_sp" name="LicenseType_1535035_1402681_64962447_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_64962447_sp" name="Premise_1535035_1402681_64962447_sp" class="possegrid" style="text-align: left"><b>ORIGINAL HOT DOG SHOP</b><br/>3901-03 FORBES AVE &
+125 S BOUQUET ST
+<br>PITTSBURGH PA 15213-3511</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_64962447_sp" name="Licensee_1535035_1402681_64962447_sp" class="possegrid" style="text-align: left">OHDS, INC.</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_64962447_sp" name="State_1535035_1402681_64962447_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_64962447_sp" name="IssueDateFormatted_1535035_1402681_64962447_sp" class="possegrid" style="text-align: left">Feb 15, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_64962447_sp" name="FormattedExpirationDate_1535035_1402681_64962447_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_2"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_32027929_sp" name="LID_Link_1535035_1402681_32027929_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_32027929" name="LID_Link_1535035_1402681_32027929" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_32027929', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=32027929', 1100, 500, 'LID_Link_1535035_1402681_32027929')">23</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_32027929_sp" name="LicenseNumber_1535035_1402681_32027929_sp" class="possegrid" style="text-align: left">AE33</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_32027929_sp" name="LicenseType_1535035_1402681_32027929_sp" class="possegrid" style="text-align: left">Alcohol Tax-Exempt</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_32027929_sp" name="Premise_1535035_1402681_32027929_sp" class="possegrid" style="text-align: left"><b>MAGEE-WOMENS HOSPITAL</b><br/>FORBES & HALKET ST
+<br>PITTSBURGH PA 15213</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_32027929_sp" name="Licensee_1535035_1402681_32027929_sp" class="possegrid" style="text-align: left">MAGEE-WOMENS HOSPITAL</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_32027929_sp" name="State_1535035_1402681_32027929_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_32027929_sp" name="IssueDateFormatted_1535035_1402681_32027929_sp" class="possegrid" style="text-align: left">Jan 11, 2017</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_32027929_sp" name="FormattedExpirationDate_1535035_1402681_32027929_sp" class="possegrid" style="text-align: left">Dec 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_1"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_66522549_sp" name="LID_Link_1535035_1402681_66522549_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_66522549" name="LID_Link_1535035_1402681_66522549" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_66522549', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=66522549', 1100, 500, 'LID_Link_1535035_1402681_66522549')">25868</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_66522549_sp" name="LicenseNumber_1535035_1402681_66522549_sp" class="possegrid" style="text-align: left">D1481</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_66522549_sp" name="LicenseType_1535035_1402681_66522549_sp" class="possegrid" style="text-align: left">Distributor (Malt)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_66522549_sp" name="Premise_1535035_1402681_66522549_sp" class="possegrid" style="text-align: left"><b>MELLINGER BEER DISTRIBUTOR, INC.  </b><br/>402-404-406 SEMPLE ST 
+<br>PITTSBURGH PA 15213-4131</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_66522549_sp" name="Licensee_1535035_1402681_66522549_sp" class="possegrid" style="text-align: left">MELLINGER BEER DISTRIBUTOR, INC.</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_66522549_sp" name="State_1535035_1402681_66522549_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_66522549_sp" name="IssueDateFormatted_1535035_1402681_66522549_sp" class="possegrid" style="text-align: left">Mar 28, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_66522549_sp" name="FormattedExpirationDate_1535035_1402681_66522549_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_2"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_59806220_sp" name="LID_Link_1535035_1402681_59806220_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_59806220" name="LID_Link_1535035_1402681_59806220" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_59806220', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=59806220', 1100, 500, 'LID_Link_1535035_1402681_59806220')">31730</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_59806220_sp" name="LicenseNumber_1535035_1402681_59806220_sp" class="possegrid" style="text-align: left">I648</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_59806220_sp" name="LicenseType_1535035_1402681_59806220_sp" class="possegrid" style="text-align: left">Importer</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_59806220_sp" name="Premise_1535035_1402681_59806220_sp" class="possegrid" style="text-align: left"><b>GATEWAY WINE & SPIRITS, INC.</b><br/>5001 BAUM BLVD
+<br>PITTSBURGH PA 15213</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_59806220_sp" name="Licensee_1535035_1402681_59806220_sp" class="possegrid" style="text-align: left">GATEWAY WINE &amp; SPIRITS, INC.</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_59806220_sp" name="State_1535035_1402681_59806220_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_59806220_sp" name="IssueDateFormatted_1535035_1402681_59806220_sp" class="possegrid" style="text-align: left">Sep 24, 2018</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_59806220_sp" name="FormattedExpirationDate_1535035_1402681_59806220_sp" class="possegrid" style="text-align: left">Dec 31, 2019</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_1"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_70985985_sp" name="LID_Link_1535035_1402681_70985985_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_70985985" name="LID_Link_1535035_1402681_70985985" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_70985985', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=70985985', 1100, 500, 'LID_Link_1535035_1402681_70985985')">33298</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_70985985_sp" name="LicenseNumber_1535035_1402681_70985985_sp" class="possegrid" style="text-align: left">R2249</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_70985985_sp" name="LicenseType_1535035_1402681_70985985_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_70985985_sp" name="Premise_1535035_1402681_70985985_sp" class="possegrid" style="text-align: left"><b>MAD MEX</b><br/>370 ATWOOD ST
+<br>PITTSBURGH PA 15213-4026</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_70985985_sp" name="Licensee_1535035_1402681_70985985_sp" class="possegrid" style="text-align: left">SOL BROTHERS INC.</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_70985985_sp" name="State_1535035_1402681_70985985_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_70985985_sp" name="IssueDateFormatted_1535035_1402681_70985985_sp" class="possegrid" style="text-align: left">Sep 6, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_70985985_sp" name="FormattedExpirationDate_1535035_1402681_70985985_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_2"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_28557104_sp" name="LID_Link_1535035_1402681_28557104_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_28557104" name="LID_Link_1535035_1402681_28557104" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_28557104', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=28557104', 1100, 500, 'LID_Link_1535035_1402681_28557104')">33311</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_28557104_sp" name="LicenseNumber_1535035_1402681_28557104_sp" class="possegrid" style="text-align: left">AN2419</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_28557104_sp" name="LicenseType_1535035_1402681_28557104_sp" class="possegrid" style="text-align: left">Alcohol Non-Beverage</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_28557104_sp" name="Premise_1535035_1402681_28557104_sp" class="possegrid" style="text-align: left"><b>ANDREA CORTESE-HASSETT,PHD ITX M DIAGNOSTICS</b><br/>3636 BLVD OF THE ALLIES
+<br>PITTSBURGH PA 15213-4306</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_28557104_sp" name="Licensee_1535035_1402681_28557104_sp" class="possegrid" style="text-align: left">ANDREA CORTESE-HASSETT,PHD ITX M DIAGNOSTICS</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_28557104_sp" name="State_1535035_1402681_28557104_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_28557104_sp" name="IssueDateFormatted_1535035_1402681_28557104_sp" class="possegrid" style="text-align: left">Nov 3, 2016</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_28557104_sp" name="FormattedExpirationDate_1535035_1402681_28557104_sp" class="possegrid" style="text-align: left">Dec 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_1"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_64482675_sp" name="LID_Link_1535035_1402681_64482675_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_64482675" name="LID_Link_1535035_1402681_64482675" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_64482675', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=64482675', 1100, 500, 'LID_Link_1535035_1402681_64482675')">33339</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_64482675_sp" name="LicenseNumber_1535035_1402681_64482675_sp" class="possegrid" style="text-align: left">R10011</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_64482675_sp" name="LicenseType_1535035_1402681_64482675_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_64482675_sp" name="Premise_1535035_1402681_64482675_sp" class="possegrid" style="text-align: left"><b>UNION GRILL</b><br/>413 S CRAIG ST
+<br>PITTSBURGH PA 15213-3708</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_64482675_sp" name="Licensee_1535035_1402681_64482675_sp" class="possegrid" style="text-align: left">UNION GRILL, INC.</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_64482675_sp" name="State_1535035_1402681_64482675_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_64482675_sp" name="IssueDateFormatted_1535035_1402681_64482675_sp" class="possegrid" style="text-align: left">Feb 6, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_64482675_sp" name="FormattedExpirationDate_1535035_1402681_64482675_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_2"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_68798186_sp" name="LID_Link_1535035_1402681_68798186_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_68798186" name="LID_Link_1535035_1402681_68798186" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_68798186', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=68798186', 1100, 500, 'LID_Link_1535035_1402681_68798186')">3486</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_68798186_sp" name="LicenseNumber_1535035_1402681_68798186_sp" class="possegrid" style="text-align: left">CC3672</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_68798186_sp" name="LicenseType_1535035_1402681_68798186_sp" class="possegrid" style="text-align: left">Catering Club (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_68798186_sp" name="Premise_1535035_1402681_68798186_sp" class="possegrid" style="text-align: left"><b>THE TWENTIETH CENTURY CLUB</b><br/>4201 BIGELOW BLVD
+<br>PITTSBURGH PA 15213-2601</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_68798186_sp" name="Licensee_1535035_1402681_68798186_sp" class="possegrid" style="text-align: left">THE TWENTIETH CENTURY CLUB</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_68798186_sp" name="State_1535035_1402681_68798186_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_68798186_sp" name="IssueDateFormatted_1535035_1402681_68798186_sp" class="possegrid" style="text-align: left">May 23, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_68798186_sp" name="FormattedExpirationDate_1535035_1402681_68798186_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_1"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_68855463_sp" name="LID_Link_1535035_1402681_68855463_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_68855463" name="LID_Link_1535035_1402681_68855463" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_68855463', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=68855463', 1100, 500, 'LID_Link_1535035_1402681_68855463')">36665</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_68855463_sp" name="LicenseNumber_1535035_1402681_68855463_sp" class="possegrid" style="text-align: left">R12211</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_68855463_sp" name="LicenseType_1535035_1402681_68855463_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_68855463_sp" name="Premise_1535035_1402681_68855463_sp" class="possegrid" style="text-align: left"><b>PRINCE OF INDIA RESTAURANT & TAVERN, INC.</b><br/>3614 5TH AVE
+<br>PITTSBURGH PA 15213-3404</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_68855463_sp" name="Licensee_1535035_1402681_68855463_sp" class="possegrid" style="text-align: left">PRINCE OF INDIA RESTAURANT &amp; TAVERN, INC.</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_68855463_sp" name="State_1535035_1402681_68855463_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_68855463_sp" name="IssueDateFormatted_1535035_1402681_68855463_sp" class="possegrid" style="text-align: left">May 24, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_68855463_sp" name="FormattedExpirationDate_1535035_1402681_68855463_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_2"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_64597255_sp" name="LID_Link_1535035_1402681_64597255_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_64597255" name="LID_Link_1535035_1402681_64597255" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_64597255', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=64597255', 1100, 500, 'LID_Link_1535035_1402681_64597255')">39314</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_64597255_sp" name="LicenseNumber_1535035_1402681_64597255_sp" class="possegrid" style="text-align: left">R3042</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_64597255_sp" name="LicenseType_1535035_1402681_64597255_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_64597255_sp" name="Premise_1535035_1402681_64597255_sp" class="possegrid" style="text-align: left"><b>AMERICANA BAR CORPORATION</b><br/>212-214 OAKLAND AVE
+<br>PITTSBURGH PA 15213-4064</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_64597255_sp" name="Licensee_1535035_1402681_64597255_sp" class="possegrid" style="text-align: left">AMERICANA BAR CORPORATION</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_64597255_sp" name="State_1535035_1402681_64597255_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_64597255_sp" name="IssueDateFormatted_1535035_1402681_64597255_sp" class="possegrid" style="text-align: left">Feb 7, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_64597255_sp" name="FormattedExpirationDate_1535035_1402681_64597255_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_1"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_66760705_sp" name="LID_Link_1535035_1402681_66760705_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_66760705" name="LID_Link_1535035_1402681_66760705" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_66760705', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=66760705', 1100, 500, 'LID_Link_1535035_1402681_66760705')">45668</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_66760705_sp" name="LicenseNumber_1535035_1402681_66760705_sp" class="possegrid" style="text-align: left">R12410</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_66760705_sp" name="LicenseType_1535035_1402681_66760705_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_66760705_sp" name="Premise_1535035_1402681_66760705_sp" class="possegrid" style="text-align: left"><b>PIV-CON, INC.</b><br/>403-409 SEMPLE ST
+<br>PITTSBURGH PA 15213-4130</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_66760705_sp" name="Licensee_1535035_1402681_66760705_sp" class="possegrid" style="text-align: left">PIV-CON, INC.</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_66760705_sp" name="State_1535035_1402681_66760705_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_66760705_sp" name="IssueDateFormatted_1535035_1402681_66760705_sp" class="possegrid" style="text-align: left">Apr 3, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_66760705_sp" name="FormattedExpirationDate_1535035_1402681_66760705_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_2"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_28281939_sp" name="LID_Link_1535035_1402681_28281939_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_28281939" name="LID_Link_1535035_1402681_28281939" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_28281939', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=28281939', 1100, 500, 'LID_Link_1535035_1402681_28281939')">45743</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_28281939_sp" name="LicenseNumber_1535035_1402681_28281939_sp" class="possegrid" style="text-align: left">AN2668</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_28281939_sp" name="LicenseType_1535035_1402681_28281939_sp" class="possegrid" style="text-align: left">Alcohol Non-Beverage</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_28281939_sp" name="Premise_1535035_1402681_28281939_sp" class="possegrid" style="text-align: left"><b>HIEBER'S PHARMACY, INC.</b><br/>3500 FIFTH AVE
+<br>PITTSBURGH PA 15213-3377</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_28281939_sp" name="Licensee_1535035_1402681_28281939_sp" class="possegrid" style="text-align: left">HIEBER'S PHARMACY, INC.</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_28281939_sp" name="State_1535035_1402681_28281939_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_28281939_sp" name="IssueDateFormatted_1535035_1402681_28281939_sp" class="possegrid" style="text-align: left">Oct 26, 2016</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_28281939_sp" name="FormattedExpirationDate_1535035_1402681_28281939_sp" class="possegrid" style="text-align: left">Dec 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_1"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_64774396_sp" name="LID_Link_1535035_1402681_64774396_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_64774396" name="LID_Link_1535035_1402681_64774396" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_64774396', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=64774396', 1100, 500, 'LID_Link_1535035_1402681_64774396')">45759</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_64774396_sp" name="LicenseNumber_1535035_1402681_64774396_sp" class="possegrid" style="text-align: left">H5840</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_64774396_sp" name="LicenseType_1535035_1402681_64774396_sp" class="possegrid" style="text-align: left">Hotel (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_64774396_sp" name="Premise_1535035_1402681_64774396_sp" class="possegrid" style="text-align: left"><b>SCHENLEY CENTER ASSOCIATES, L.P. & CROSSROADS HOSPITALITY CO., L.L.C.</b><br/>3896 BIGELOW BLVD
+<br>PITTSBURGH PA 15213</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_64774396_sp" name="Licensee_1535035_1402681_64774396_sp" class="possegrid" style="text-align: left">SCHENLEY CENTER ASSOCIATES, L.P. &amp; CROSSROADS HOSPITALITY CO., L.L.C.</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_64774396_sp" name="State_1535035_1402681_64774396_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_64774396_sp" name="IssueDateFormatted_1535035_1402681_64774396_sp" class="possegrid" style="text-align: left">Feb 22, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_64774396_sp" name="FormattedExpirationDate_1535035_1402681_64774396_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_2"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_29082459_sp" name="LID_Link_1535035_1402681_29082459_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_29082459" name="LID_Link_1535035_1402681_29082459" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_29082459', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=29082459', 1100, 500, 'LID_Link_1535035_1402681_29082459')">46</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_29082459_sp" name="LicenseNumber_1535035_1402681_29082459_sp" class="possegrid" style="text-align: left">AE70</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_29082459_sp" name="LicenseType_1535035_1402681_29082459_sp" class="possegrid" style="text-align: left">Alcohol Tax-Exempt</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_29082459_sp" name="Premise_1535035_1402681_29082459_sp" class="possegrid" style="text-align: left"><b>CARNEGIE MUSEUM OF NATURAL HISTORY</b><br/>4400 FORBES AVE
+<br>PITTSBURGH PA 15213-4080</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_29082459_sp" name="Licensee_1535035_1402681_29082459_sp" class="possegrid" style="text-align: left">CARNEGIE MUSEUM OF NATURAL HISTORY</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_29082459_sp" name="State_1535035_1402681_29082459_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_29082459_sp" name="IssueDateFormatted_1535035_1402681_29082459_sp" class="possegrid" style="text-align: left">Nov 17, 2016</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_29082459_sp" name="FormattedExpirationDate_1535035_1402681_29082459_sp" class="possegrid" style="text-align: left">Dec 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_1"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_66852773_sp" name="LID_Link_1535035_1402681_66852773_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_66852773" name="LID_Link_1535035_1402681_66852773" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_66852773', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=66852773', 1100, 500, 'LID_Link_1535035_1402681_66852773')">47661</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_66852773_sp" name="LicenseNumber_1535035_1402681_66852773_sp" class="possegrid" style="text-align: left">R9</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_66852773_sp" name="LicenseType_1535035_1402681_66852773_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_66852773_sp" name="Premise_1535035_1402681_66852773_sp" class="possegrid" style="text-align: left"><b>KOREA GARDEN</b><br/>414 SEMPLE ST
+<br>PITTSBURGH PA 15213-4162</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_66852773_sp" name="Licensee_1535035_1402681_66852773_sp" class="possegrid" style="text-align: left">SEOK HAN</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_66852773_sp" name="State_1535035_1402681_66852773_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_66852773_sp" name="IssueDateFormatted_1535035_1402681_66852773_sp" class="possegrid" style="text-align: left">Apr 5, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_66852773_sp" name="FormattedExpirationDate_1535035_1402681_66852773_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_2"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_65590566_sp" name="LID_Link_1535035_1402681_65590566_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_65590566" name="LID_Link_1535035_1402681_65590566" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_65590566', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=65590566', 1100, 500, 'LID_Link_1535035_1402681_65590566')">53912</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_65590566_sp" name="LicenseNumber_1535035_1402681_65590566_sp" class="possegrid" style="text-align: left">R16488</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_65590566_sp" name="LicenseType_1535035_1402681_65590566_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_65590566_sp" name="Premise_1535035_1402681_65590566_sp" class="possegrid" style="text-align: left"><b>GENE'S PLACE</b><br/>3616 LOUISA ST
+<br>PITTSBURGH PA 15213-4053</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_65590566_sp" name="Licensee_1535035_1402681_65590566_sp" class="possegrid" style="text-align: left">NEY ENTERPRISES, INC.</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_65590566_sp" name="State_1535035_1402681_65590566_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_65590566_sp" name="IssueDateFormatted_1535035_1402681_65590566_sp" class="possegrid" style="text-align: left">Mar 6, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_65590566_sp" name="FormattedExpirationDate_1535035_1402681_65590566_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_1"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_64650735_sp" name="LID_Link_1535035_1402681_64650735_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_64650735" name="LID_Link_1535035_1402681_64650735" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_64650735', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=64650735', 1100, 500, 'LID_Link_1535035_1402681_64650735')">54364</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_64650735_sp" name="LicenseNumber_1535035_1402681_64650735_sp" class="possegrid" style="text-align: left">PV71</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_64650735_sp" name="LicenseType_1535035_1402681_64650735_sp" class="possegrid" style="text-align: left">Public Venue Restaurant</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_64650735_sp" name="Premise_1535035_1402681_64650735_sp" class="possegrid" style="text-align: left"><b>PHIPPS CONSERVATORY AND BOTANICAL GARDENS INC</b><br/>1 SCHENLEY PARK
+<br>PITTSBURGH PA 15213-3830</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_64650735_sp" name="Licensee_1535035_1402681_64650735_sp" class="possegrid" style="text-align: left">PHIPPS CONSERVATORY AND BOTANICAL GARDENS INC</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_64650735_sp" name="State_1535035_1402681_64650735_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_64650735_sp" name="IssueDateFormatted_1535035_1402681_64650735_sp" class="possegrid" style="text-align: left">Feb 15, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_64650735_sp" name="FormattedExpirationDate_1535035_1402681_64650735_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_2"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_65875557_sp" name="LID_Link_1535035_1402681_65875557_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_65875557" name="LID_Link_1535035_1402681_65875557" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_65875557', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=65875557', 1100, 500, 'LID_Link_1535035_1402681_65875557')">55597</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_65875557_sp" name="LicenseNumber_1535035_1402681_65875557_sp" class="possegrid" style="text-align: left">R12542</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_65875557_sp" name="LicenseType_1535035_1402681_65875557_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_65875557_sp" name="Premise_1535035_1402681_65875557_sp" class="possegrid" style="text-align: left"><b>THE SPICE ISLAND TEA HOUSE</b><br/>251-253 ATWOOD ST
+<br>PITTSBURGH PA 15213-4052</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_65875557_sp" name="Licensee_1535035_1402681_65875557_sp" class="possegrid" style="text-align: left">TRIBES OF EAST ASIA INC</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_65875557_sp" name="State_1535035_1402681_65875557_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_65875557_sp" name="IssueDateFormatted_1535035_1402681_65875557_sp" class="possegrid" style="text-align: left">Mar 11, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_65875557_sp" name="FormattedExpirationDate_1535035_1402681_65875557_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_1"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_65908142_sp" name="LID_Link_1535035_1402681_65908142_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_65908142" name="LID_Link_1535035_1402681_65908142" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_65908142', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=65908142', 1100, 500, 'LID_Link_1535035_1402681_65908142')">56285</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_65908142_sp" name="LicenseNumber_1535035_1402681_65908142_sp" class="possegrid" style="text-align: left">R7110</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_65908142_sp" name="LicenseType_1535035_1402681_65908142_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_65908142_sp" name="Premise_1535035_1402681_65908142_sp" class="possegrid" style="text-align: left"><b>SOUTH SIDE SIN CITY INC</b><br/>219 ATWOOD ST
+<br>PITTSBURGH PA 15213-4001</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_65908142_sp" name="Licensee_1535035_1402681_65908142_sp" class="possegrid" style="text-align: left">SOUTH SIDE SIN CITY INC</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_65908142_sp" name="State_1535035_1402681_65908142_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_65908142_sp" name="IssueDateFormatted_1535035_1402681_65908142_sp" class="possegrid" style="text-align: left">Mar 14, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_65908142_sp" name="FormattedExpirationDate_1535035_1402681_65908142_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_2"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_67224944_sp" name="LID_Link_1535035_1402681_67224944_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_67224944" name="LID_Link_1535035_1402681_67224944" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_67224944', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=67224944', 1100, 500, 'LID_Link_1535035_1402681_67224944')">56709</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_67224944_sp" name="LicenseNumber_1535035_1402681_67224944_sp" class="possegrid" style="text-align: left">R14396</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_67224944_sp" name="LicenseType_1535035_1402681_67224944_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_67224944_sp" name="Premise_1535035_1402681_67224944_sp" class="possegrid" style="text-align: left"><b>P TOWN</b><br/>4740 BAUM BLVD
+<br>PITTSBURGH PA 15213-1323</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_67224944_sp" name="Licensee_1535035_1402681_67224944_sp" class="possegrid" style="text-align: left">P TOWN INC</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_67224944_sp" name="State_1535035_1402681_67224944_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_67224944_sp" name="IssueDateFormatted_1535035_1402681_67224944_sp" class="possegrid" style="text-align: left">May 1, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_67224944_sp" name="FormattedExpirationDate_1535035_1402681_67224944_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_1"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_64855530_sp" name="LID_Link_1535035_1402681_64855530_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_64855530" name="LID_Link_1535035_1402681_64855530" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_64855530', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=64855530', 1100, 500, 'LID_Link_1535035_1402681_64855530')">58055</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_64855530_sp" name="LicenseNumber_1535035_1402681_64855530_sp" class="possegrid" style="text-align: left">D476</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_64855530_sp" name="LicenseType_1535035_1402681_64855530_sp" class="possegrid" style="text-align: left">Distributor (Malt)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_64855530_sp" name="Premise_1535035_1402681_64855530_sp" class="possegrid" style="text-align: left"><b>CRAIG DISTRIBUTING COMPANY</b><br/>311-313 N CRAIG ST 
+<br>PITTSBURGH PA 15213</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_64855530_sp" name="Licensee_1535035_1402681_64855530_sp" class="possegrid" style="text-align: left">CENTRE-CRAIG DISTRIBUTING INC</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_64855530_sp" name="State_1535035_1402681_64855530_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_64855530_sp" name="IssueDateFormatted_1535035_1402681_64855530_sp" class="possegrid" style="text-align: left">Feb 19, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_64855530_sp" name="FormattedExpirationDate_1535035_1402681_64855530_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_2"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_66671403_sp" name="LID_Link_1535035_1402681_66671403_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_66671403" name="LID_Link_1535035_1402681_66671403" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_66671403', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=66671403', 1100, 500, 'LID_Link_1535035_1402681_66671403')">58438</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_66671403_sp" name="LicenseNumber_1535035_1402681_66671403_sp" class="possegrid" style="text-align: left">R8745</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_66671403_sp" name="LicenseType_1535035_1402681_66671403_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_66671403_sp" name="Premise_1535035_1402681_66671403_sp" class="possegrid" style="text-align: left"><b>UNIVERSITY OF PITTSBURGH OF THE COMMONWEALTH SYSTEM OF HIGHER ED</b><br/>123 UNIVERSITY PL
+<br>PITTSBURGH PA 15213-2303</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_66671403_sp" name="Licensee_1535035_1402681_66671403_sp" class="possegrid" style="text-align: left">UNIVERSITY OF PITTSBURGH OF THE COMMONWEALTH SYSTEM OF HIGHER ED</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_66671403_sp" name="State_1535035_1402681_66671403_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_66671403_sp" name="IssueDateFormatted_1535035_1402681_66671403_sp" class="possegrid" style="text-align: left">Apr 4, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_66671403_sp" name="FormattedExpirationDate_1535035_1402681_66671403_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_1"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_72963568_sp" name="LID_Link_1535035_1402681_72963568_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_72963568" name="LID_Link_1535035_1402681_72963568" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_72963568', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=72963568', 1100, 500, 'LID_Link_1535035_1402681_72963568')">60673</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_72963568_sp" name="LicenseNumber_1535035_1402681_72963568_sp" class="possegrid" style="text-align: left">PV105</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_72963568_sp" name="LicenseType_1535035_1402681_72963568_sp" class="possegrid" style="text-align: left">Public Venue Restaurant</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_72963568_sp" name="Premise_1535035_1402681_72963568_sp" class="possegrid" style="text-align: left"><b>SOLDIERS & SAILORS MEMORIAL HALL & MUSEUM TRUST INC</b><br/>4141 5TH AVE
+<br>PITTSBURGH PA 15213-3547</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_72963568_sp" name="Licensee_1535035_1402681_72963568_sp" class="possegrid" style="text-align: left">SOLDIERS &amp; SAILORS MEMORIAL HALL &amp; MUSEUM TRUST INC</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_72963568_sp" name="State_1535035_1402681_72963568_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_72963568_sp" name="IssueDateFormatted_1535035_1402681_72963568_sp" class="possegrid" style="text-align: left">Oct 28, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_72963568_sp" name="FormattedExpirationDate_1535035_1402681_72963568_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_2"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_65644583_sp" name="LID_Link_1535035_1402681_65644583_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_65644583" name="LID_Link_1535035_1402681_65644583" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_65644583', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=65644583', 1100, 500, 'LID_Link_1535035_1402681_65644583')">64557</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_65644583_sp" name="LicenseNumber_1535035_1402681_65644583_sp" class="possegrid" style="text-align: left">R9969</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_65644583_sp" name="LicenseType_1535035_1402681_65644583_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_65644583_sp" name="Premise_1535035_1402681_65644583_sp" class="possegrid" style="text-align: left"><b>LEGUME INC</b><br/>214 N CRAIG ST
+<br>PITTSBURGH PA 15213-1508</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_65644583_sp" name="Licensee_1535035_1402681_65644583_sp" class="possegrid" style="text-align: left">LEGUME INC</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_65644583_sp" name="State_1535035_1402681_65644583_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_65644583_sp" name="IssueDateFormatted_1535035_1402681_65644583_sp" class="possegrid" style="text-align: left">Mar 19, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_65644583_sp" name="FormattedExpirationDate_1535035_1402681_65644583_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_1"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_65039423_sp" name="LID_Link_1535035_1402681_65039423_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_65039423" name="LID_Link_1535035_1402681_65039423" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_65039423', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=65039423', 1100, 500, 'LID_Link_1535035_1402681_65039423')">64637</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_65039423_sp" name="LicenseNumber_1535035_1402681_65039423_sp" class="possegrid" style="text-align: left">R2285</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_65039423_sp" name="LicenseType_1535035_1402681_65039423_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_65039423_sp" name="Premise_1535035_1402681_65039423_sp" class="possegrid" style="text-align: left"><b>BLACK BEAN CUBAN CUISINE</b><br/>239 ATWOOD ST
+<br>PITTSBURGH PA 15213-4052</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_65039423_sp" name="Licensee_1535035_1402681_65039423_sp" class="possegrid" style="text-align: left">BLACK BEAN PITTSBURGH INC.</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_65039423_sp" name="State_1535035_1402681_65039423_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_65039423_sp" name="IssueDateFormatted_1535035_1402681_65039423_sp" class="possegrid" style="text-align: left">May 22, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_65039423_sp" name="FormattedExpirationDate_1535035_1402681_65039423_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_2"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_66067503_sp" name="LID_Link_1535035_1402681_66067503_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_66067503" name="LID_Link_1535035_1402681_66067503" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_66067503', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=66067503', 1100, 500, 'LID_Link_1535035_1402681_66067503')">64730</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_66067503_sp" name="LicenseNumber_1535035_1402681_66067503_sp" class="possegrid" style="text-align: left">R4845</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_66067503_sp" name="LicenseType_1535035_1402681_66067503_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_66067503_sp" name="Premise_1535035_1402681_66067503_sp" class="possegrid" style="text-align: left"><b>PITT'S DOGG'N IT LLC</b><br/>260 ATWOOD ST
+<br>PITTSBURGH PA 15213-4030</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_66067503_sp" name="Licensee_1535035_1402681_66067503_sp" class="possegrid" style="text-align: left">PITT'S DOGG'N IT LLC</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_66067503_sp" name="State_1535035_1402681_66067503_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_66067503_sp" name="IssueDateFormatted_1535035_1402681_66067503_sp" class="possegrid" style="text-align: left">May 10, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_66067503_sp" name="FormattedExpirationDate_1535035_1402681_66067503_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_1"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_65687293_sp" name="LID_Link_1535035_1402681_65687293_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_65687293" name="LID_Link_1535035_1402681_65687293" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_65687293', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=65687293', 1100, 500, 'LID_Link_1535035_1402681_65687293')">64819</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_65687293_sp" name="LicenseNumber_1535035_1402681_65687293_sp" class="possegrid" style="text-align: left">H6266</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_65687293_sp" name="LicenseType_1535035_1402681_65687293_sp" class="possegrid" style="text-align: left">Hotel (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_65687293_sp" name="Premise_1535035_1402681_65687293_sp" class="possegrid" style="text-align: left"><b>URGO HOTELS LP AND RLJ III - HGN PITTSBURGH LESSEE LP</b><br/>3454 FORBES AVE 
+<br>PITTSBURGH PA 15213-3213</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_65687293_sp" name="Licensee_1535035_1402681_65687293_sp" class="possegrid" style="text-align: left">URGO HOTELS LP AND RLJ III - HGN PITTSBURGH LESSEE LP</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_65687293_sp" name="State_1535035_1402681_65687293_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_65687293_sp" name="IssueDateFormatted_1535035_1402681_65687293_sp" class="possegrid" style="text-align: left">May 16, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_65687293_sp" name="FormattedExpirationDate_1535035_1402681_65687293_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_2"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_65480503_sp" name="LID_Link_1535035_1402681_65480503_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_65480503" name="LID_Link_1535035_1402681_65480503" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_65480503', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=65480503', 1100, 500, 'LID_Link_1535035_1402681_65480503')">65117</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_65480503_sp" name="LicenseNumber_1535035_1402681_65480503_sp" class="possegrid" style="text-align: left">R6772</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_65480503_sp" name="LicenseType_1535035_1402681_65480503_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_65480503_sp" name="Premise_1535035_1402681_65480503_sp" class="possegrid" style="text-align: left"><b>EAT'N PARK HOSPITALITY GROUP INC</b><br/>221 SCHENLEY DR
+<br>PITTSBURGH PA 15213</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_65480503_sp" name="Licensee_1535035_1402681_65480503_sp" class="possegrid" style="text-align: left">EAT'N PARK HOSPITALITY GROUP INC</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_65480503_sp" name="State_1535035_1402681_65480503_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_65480503_sp" name="IssueDateFormatted_1535035_1402681_65480503_sp" class="possegrid" style="text-align: left">Apr 2, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_65480503_sp" name="FormattedExpirationDate_1535035_1402681_65480503_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_1"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_65889827_sp" name="LID_Link_1535035_1402681_65889827_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_65889827" name="LID_Link_1535035_1402681_65889827" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_65889827', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=65889827', 1100, 500, 'LID_Link_1535035_1402681_65889827')">65703</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_65889827_sp" name="LicenseNumber_1535035_1402681_65889827_sp" class="possegrid" style="text-align: left">E3419</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_65889827_sp" name="LicenseType_1535035_1402681_65889827_sp" class="possegrid" style="text-align: left">Eating Place Retail Dispenser (Malt)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_65889827_sp" name="Premise_1535035_1402681_65889827_sp" class="possegrid" style="text-align: left"><b>ALI-BABA</b><br/>404 S CRAIG ST
+<br>PITTSBURGH PA 15213-3709</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_65889827_sp" name="Licensee_1535035_1402681_65889827_sp" class="possegrid" style="text-align: left">ADAMO RESTAURANTS LLC</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_65889827_sp" name="State_1535035_1402681_65889827_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_65889827_sp" name="IssueDateFormatted_1535035_1402681_65889827_sp" class="possegrid" style="text-align: left">Mar 14, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_65889827_sp" name="FormattedExpirationDate_1535035_1402681_65889827_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_2"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_64689749_sp" name="LID_Link_1535035_1402681_64689749_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_64689749" name="LID_Link_1535035_1402681_64689749" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_64689749', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=64689749', 1100, 500, 'LID_Link_1535035_1402681_64689749')">68081</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_64689749_sp" name="LicenseNumber_1535035_1402681_64689749_sp" class="possegrid" style="text-align: left">H5990</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_64689749_sp" name="LicenseType_1535035_1402681_64689749_sp" class="possegrid" style="text-align: left">Hotel (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_64689749_sp" name="Premise_1535035_1402681_64689749_sp" class="possegrid" style="text-align: left"><b>WYNDHAM PITTSBURGH UNIVERSITY CENTER</b><br/>100 LYTTON AVE
+<br>PITTSBURGH PA 15213-1444</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_64689749_sp" name="Licensee_1535035_1402681_64689749_sp" class="possegrid" style="text-align: left">DJONT/JPM HOSP LEASING (SPE) LLC &amp; WYNDHAM HOTEL MANAGEMENT INC</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_64689749_sp" name="State_1535035_1402681_64689749_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_64689749_sp" name="IssueDateFormatted_1535035_1402681_64689749_sp" class="possegrid" style="text-align: left">Feb 7, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_64689749_sp" name="FormattedExpirationDate_1535035_1402681_64689749_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_1"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_66561850_sp" name="LID_Link_1535035_1402681_66561850_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_66561850" name="LID_Link_1535035_1402681_66561850" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_66561850', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=66561850', 1100, 500, 'LID_Link_1535035_1402681_66561850')">69257</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_66561850_sp" name="LicenseNumber_1535035_1402681_66561850_sp" class="possegrid" style="text-align: left">R2973</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_66561850_sp" name="LicenseType_1535035_1402681_66561850_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_66561850_sp" name="Premise_1535035_1402681_66561850_sp" class="possegrid" style="text-align: left"><b>CAMPUS BOOKSTORE INC</b><br/>3610 5TH AVE
+<br>PITTSBURGH PA 15213-3404</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_66561850_sp" name="Licensee_1535035_1402681_66561850_sp" class="possegrid" style="text-align: left">CAMPUS BOOKSTORE INC</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_66561850_sp" name="State_1535035_1402681_66561850_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_66561850_sp" name="IssueDateFormatted_1535035_1402681_66561850_sp" class="possegrid" style="text-align: left">Apr 4, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_66561850_sp" name="FormattedExpirationDate_1535035_1402681_66561850_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_2"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_65875966_sp" name="LID_Link_1535035_1402681_65875966_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_65875966" name="LID_Link_1535035_1402681_65875966" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_65875966', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=65875966', 1100, 500, 'LID_Link_1535035_1402681_65875966')">70381</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_65875966_sp" name="LicenseNumber_1535035_1402681_65875966_sp" class="possegrid" style="text-align: left">R8126</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_65875966_sp" name="LicenseType_1535035_1402681_65875966_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_65875966_sp" name="Premise_1535035_1402681_65875966_sp" class="possegrid" style="text-align: left"><b>CREPES PARISIENNES LLC</b><br/>207 S CRAIG ST
+<br>PITTSBURGH PA 15213-3704</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_65875966_sp" name="Licensee_1535035_1402681_65875966_sp" class="possegrid" style="text-align: left">CREPES PARISIENNES LLC</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_65875966_sp" name="State_1535035_1402681_65875966_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_65875966_sp" name="IssueDateFormatted_1535035_1402681_65875966_sp" class="possegrid" style="text-align: left">Mar 11, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_65875966_sp" name="FormattedExpirationDate_1535035_1402681_65875966_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_1"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_66592935_sp" name="LID_Link_1535035_1402681_66592935_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_66592935" name="LID_Link_1535035_1402681_66592935" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_66592935', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=66592935', 1100, 500, 'LID_Link_1535035_1402681_66592935')">70415</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_66592935_sp" name="LicenseNumber_1535035_1402681_66592935_sp" class="possegrid" style="text-align: left">R5960</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_66592935_sp" name="LicenseType_1535035_1402681_66592935_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_66592935_sp" name="Premise_1535035_1402681_66592935_sp" class="possegrid" style="text-align: left"><b>KBOX KARAOKE HOUSE</b><br/>214 S CRAIG ST
+<br>PITTSBURGH PA 15213-3705</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_66592935_sp" name="Licensee_1535035_1402681_66592935_sp" class="possegrid" style="text-align: left">ZZ AND D LLC</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_66592935_sp" name="State_1535035_1402681_66592935_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_66592935_sp" name="IssueDateFormatted_1535035_1402681_66592935_sp" class="possegrid" style="text-align: left">Mar 29, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_66592935_sp" name="FormattedExpirationDate_1535035_1402681_66592935_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_2"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_36950210_sp" name="LID_Link_1535035_1402681_36950210_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_36950210" name="LID_Link_1535035_1402681_36950210" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_36950210', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=36950210', 1100, 500, 'LID_Link_1535035_1402681_36950210')">70625</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_36950210_sp" name="LicenseNumber_1535035_1402681_36950210_sp" class="possegrid" style="text-align: left">AE957</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_36950210_sp" name="LicenseType_1535035_1402681_36950210_sp" class="possegrid" style="text-align: left">Alcohol Tax-Exempt</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_36950210_sp" name="Premise_1535035_1402681_36950210_sp" class="possegrid" style="text-align: left"><b>UPMC PRESBYTERIAN SHADYSIDE PRESBYTERIAN CAMPUS</b><br/>200 LOTHROP ST RM G110
+<br>PITTSBURGH PA 15213-2536</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_36950210_sp" name="Licensee_1535035_1402681_36950210_sp" class="possegrid" style="text-align: left">UPMC PRESBYTERIAN SHADYSIDE PRESBYTERIAN CAMPUS</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_36950210_sp" name="State_1535035_1402681_36950210_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_36950210_sp" name="IssueDateFormatted_1535035_1402681_36950210_sp" class="possegrid" style="text-align: left">Jan 17, 2017</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_36950210_sp" name="FormattedExpirationDate_1535035_1402681_36950210_sp" class="possegrid" style="text-align: left">Dec 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_1"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_66322938_sp" name="LID_Link_1535035_1402681_66322938_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_66322938" name="LID_Link_1535035_1402681_66322938" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_66322938', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=66322938', 1100, 500, 'LID_Link_1535035_1402681_66322938')">70950</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_66322938_sp" name="LicenseNumber_1535035_1402681_66322938_sp" class="possegrid" style="text-align: left">IB4375</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_66322938_sp" name="LicenseType_1535035_1402681_66322938_sp" class="possegrid" style="text-align: left">Transporter for Hire Class B</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_66322938_sp" name="Premise_1535035_1402681_66322938_sp" class="possegrid" style="text-align: left"><b>PAPA DA VINCI LLC</b><br/>3526 BLVD OF THE ALLIES
+<br>PITTSBURGH PA 15213-4361</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_66322938_sp" name="Licensee_1535035_1402681_66322938_sp" class="possegrid" style="text-align: left">PAPA DA VINCI LLC</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_66322938_sp" name="State_1535035_1402681_66322938_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_66322938_sp" name="IssueDateFormatted_1535035_1402681_66322938_sp" class="possegrid" style="text-align: left">Mar 25, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_66322938_sp" name="FormattedExpirationDate_1535035_1402681_66322938_sp" class="possegrid" style="text-align: left">Dec 31, 2019</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_2"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_66472840_sp" name="LID_Link_1535035_1402681_66472840_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_66472840" name="LID_Link_1535035_1402681_66472840" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_66472840', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=66472840', 1100, 500, 'LID_Link_1535035_1402681_66472840')">71067</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_66472840_sp" name="LicenseNumber_1535035_1402681_66472840_sp" class="possegrid" style="text-align: left">R12441</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_66472840_sp" name="LicenseType_1535035_1402681_66472840_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_66472840_sp" name="Premise_1535035_1402681_66472840_sp" class="possegrid" style="text-align: left"><b>PRIMANTI BROS</b><br/>3803-05 FORBES AVE
+<br>PITTSBURGH PA 15213-3505</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_66472840_sp" name="Licensee_1535035_1402681_66472840_sp" class="possegrid" style="text-align: left">PLN FOOD SERVICE INC</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_66472840_sp" name="State_1535035_1402681_66472840_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_66472840_sp" name="IssueDateFormatted_1535035_1402681_66472840_sp" class="possegrid" style="text-align: left">Mar 26, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_66472840_sp" name="FormattedExpirationDate_1535035_1402681_66472840_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_1"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_52286029_sp" name="LID_Link_1535035_1402681_52286029_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_52286029" name="LID_Link_1535035_1402681_52286029" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_52286029', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=52286029', 1100, 500, 'LID_Link_1535035_1402681_52286029')">71810</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_52286029_sp" name="LicenseNumber_1535035_1402681_52286029_sp" class="possegrid" style="text-align: left">R10097</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_52286029_sp" name="LicenseType_1535035_1402681_52286029_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_52286029_sp" name="Premise_1535035_1402681_52286029_sp" class="possegrid" style="text-align: left"><b>MERO OAKLAND INC</b><br/>3716 FORBES AVE
+<br>PITTSBURGH PA 15213-3409</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_52286029_sp" name="Licensee_1535035_1402681_52286029_sp" class="possegrid" style="text-align: left">MERO OAKLAND INC</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_52286029_sp" name="State_1535035_1402681_52286029_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_52286029_sp" name="IssueDateFormatted_1535035_1402681_52286029_sp" class="possegrid" style="text-align: left">Jul 2, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_52286029_sp" name="FormattedExpirationDate_1535035_1402681_52286029_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_2"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_68282139_sp" name="LID_Link_1535035_1402681_68282139_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_68282139" name="LID_Link_1535035_1402681_68282139" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_68282139', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=68282139', 1100, 500, 'LID_Link_1535035_1402681_68282139')">72265</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_68282139_sp" name="LicenseNumber_1535035_1402681_68282139_sp" class="possegrid" style="text-align: left">R9872</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_68282139_sp" name="LicenseType_1535035_1402681_68282139_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_68282139_sp" name="Premise_1535035_1402681_68282139_sp" class="possegrid" style="text-align: left"><b>CARNEGIE MUSEUM OF ART & NAT HIST</b><br/>4400 FORBES AVE
+<br>PITTSBURGH PA 15213-4007</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_68282139_sp" name="Licensee_1535035_1402681_68282139_sp" class="possegrid" style="text-align: left">CULINAIRE INTERNATIONAL INC</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_68282139_sp" name="State_1535035_1402681_68282139_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_68282139_sp" name="IssueDateFormatted_1535035_1402681_68282139_sp" class="possegrid" style="text-align: left">May 29, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_68282139_sp" name="FormattedExpirationDate_1535035_1402681_68282139_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_1"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_60901307_sp" name="LID_Link_1535035_1402681_60901307_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_60901307" name="LID_Link_1535035_1402681_60901307" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_60901307', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=60901307', 1100, 500, 'LID_Link_1535035_1402681_60901307')">73396</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_60901307_sp" name="LicenseNumber_1535035_1402681_60901307_sp" class="possegrid" style="text-align: left">I908</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_60901307_sp" name="LicenseType_1535035_1402681_60901307_sp" class="possegrid" style="text-align: left">Importer</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_60901307_sp" name="Premise_1535035_1402681_60901307_sp" class="possegrid" style="text-align: left"><b>NEXT CHAPTER WINES & SPIRITS LLC</b><br/>705 DEVONSHIRE ST 
+<br>PITTSBURGH PA 15213-2905</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_60901307_sp" name="Licensee_1535035_1402681_60901307_sp" class="possegrid" style="text-align: left">NEXT CHAPTER WINES &amp; SPIRITS LLC</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_60901307_sp" name="State_1535035_1402681_60901307_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_60901307_sp" name="IssueDateFormatted_1535035_1402681_60901307_sp" class="possegrid" style="text-align: left">Oct 25, 2018</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_60901307_sp" name="FormattedExpirationDate_1535035_1402681_60901307_sp" class="possegrid" style="text-align: left">Dec 31, 2019</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_2"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_68698707_sp" name="LID_Link_1535035_1402681_68698707_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_68698707" name="LID_Link_1535035_1402681_68698707" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_68698707', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=68698707', 1100, 500, 'LID_Link_1535035_1402681_68698707')">81360</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_68698707_sp" name="LicenseNumber_1535035_1402681_68698707_sp" class="possegrid" style="text-align: left">R7140</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_68698707_sp" name="LicenseType_1535035_1402681_68698707_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_68698707_sp" name="Premise_1535035_1402681_68698707_sp" class="possegrid" style="text-align: left"><b>THE CRICKET LOUNGE</b><br/>280 MOREWOOD AVE
+<br>PITTSBURGH PA 15213-1835</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_68698707_sp" name="Licensee_1535035_1402681_68698707_sp" class="possegrid" style="text-align: left">BTB ENTERTAINMENT INC</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_68698707_sp" name="State_1535035_1402681_68698707_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_68698707_sp" name="IssueDateFormatted_1535035_1402681_68698707_sp" class="possegrid" style="text-align: left">May 31, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_68698707_sp" name="FormattedExpirationDate_1535035_1402681_68698707_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_1"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_64649184_sp" name="LID_Link_1535035_1402681_64649184_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_64649184" name="LID_Link_1535035_1402681_64649184" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_64649184', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=64649184', 1100, 500, 'LID_Link_1535035_1402681_64649184')">81513</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_64649184_sp" name="LicenseNumber_1535035_1402681_64649184_sp" class="possegrid" style="text-align: left">R5705</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_64649184_sp" name="LicenseType_1535035_1402681_64649184_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_64649184_sp" name="Premise_1535035_1402681_64649184_sp" class="possegrid" style="text-align: left"><b>GIANT EAGLE INC</b><br/>4924 BAUM BLVD 
+<br>PITTSBURGH PA 15213</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_64649184_sp" name="Licensee_1535035_1402681_64649184_sp" class="possegrid" style="text-align: left">GIANT EAGLE INC</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_64649184_sp" name="State_1535035_1402681_64649184_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_64649184_sp" name="IssueDateFormatted_1535035_1402681_64649184_sp" class="possegrid" style="text-align: left">Jun 21, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_64649184_sp" name="FormattedExpirationDate_1535035_1402681_64649184_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_2"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_67547040_sp" name="LID_Link_1535035_1402681_67547040_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_67547040" name="LID_Link_1535035_1402681_67547040" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_67547040', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=67547040', 1100, 500, 'LID_Link_1535035_1402681_67547040')">82393</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_67547040_sp" name="LicenseNumber_1535035_1402681_67547040_sp" class="possegrid" style="text-align: left">R12217</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_67547040_sp" name="LicenseType_1535035_1402681_67547040_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_67547040_sp" name="Premise_1535035_1402681_67547040_sp" class="possegrid" style="text-align: left"><b>MITCHELL'S TAVERN & RESTAURANT</b><br/>4632 CENTRE AVE
+<br>PITTSBURGH PA 15213-1556</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_67547040_sp" name="Licensee_1535035_1402681_67547040_sp" class="possegrid" style="text-align: left">CENTER AVE TAVERN LLC</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_67547040_sp" name="State_1535035_1402681_67547040_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_67547040_sp" name="IssueDateFormatted_1535035_1402681_67547040_sp" class="possegrid" style="text-align: left">May 22, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_67547040_sp" name="FormattedExpirationDate_1535035_1402681_67547040_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_1"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_28233358_sp" name="LID_Link_1535035_1402681_28233358_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_28233358" name="LID_Link_1535035_1402681_28233358" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_28233358', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=28233358', 1100, 500, 'LID_Link_1535035_1402681_28233358')">84</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_28233358_sp" name="LicenseNumber_1535035_1402681_28233358_sp" class="possegrid" style="text-align: left">AE155</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_28233358_sp" name="LicenseType_1535035_1402681_28233358_sp" class="possegrid" style="text-align: left">Alcohol Tax-Exempt</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_28233358_sp" name="Premise_1535035_1402681_28233358_sp" class="possegrid" style="text-align: left"><b>CARNEGIE MELLON UNIVERSITY</b><br/>5000 FORBES AVE
+<br>PITTSBURGH PA 15213-3815</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_28233358_sp" name="Licensee_1535035_1402681_28233358_sp" class="possegrid" style="text-align: left">CARNEGIE-MELLON UNIVERSITY</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_28233358_sp" name="State_1535035_1402681_28233358_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_28233358_sp" name="IssueDateFormatted_1535035_1402681_28233358_sp" class="possegrid" style="text-align: left">Nov 16, 2016</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_28233358_sp" name="FormattedExpirationDate_1535035_1402681_28233358_sp" class="possegrid" style="text-align: left">Dec 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_2"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_64476549_sp" name="LID_Link_1535035_1402681_64476549_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_64476549" name="LID_Link_1535035_1402681_64476549" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_64476549', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=64476549', 1100, 500, 'LID_Link_1535035_1402681_64476549')">85541</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_64476549_sp" name="LicenseNumber_1535035_1402681_64476549_sp" class="possegrid" style="text-align: left">R12936</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_64476549_sp" name="LicenseType_1535035_1402681_64476549_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_64476549_sp" name="Premise_1535035_1402681_64476549_sp" class="possegrid" style="text-align: left"><b>KHALILS RESTAURANT</b><br/>4755-57 BAUM BLVD
+<br>PITTSBURGH PA 15213-1320</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_64476549_sp" name="Licensee_1535035_1402681_64476549_sp" class="possegrid" style="text-align: left">VERETAS INC</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_64476549_sp" name="State_1535035_1402681_64476549_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_64476549_sp" name="IssueDateFormatted_1535035_1402681_64476549_sp" class="possegrid" style="text-align: left">Feb 5, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_64476549_sp" name="FormattedExpirationDate_1535035_1402681_64476549_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_1"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_66009620_sp" name="LID_Link_1535035_1402681_66009620_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_66009620" name="LID_Link_1535035_1402681_66009620" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_66009620', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=66009620', 1100, 500, 'LID_Link_1535035_1402681_66009620')">86411</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_66009620_sp" name="LicenseNumber_1535035_1402681_66009620_sp" class="possegrid" style="text-align: left">R1138</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_66009620_sp" name="LicenseType_1535035_1402681_66009620_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_66009620_sp" name="Premise_1535035_1402681_66009620_sp" class="possegrid" style="text-align: left"><b>UNCLE JIMMY'S</b><br/>418-420 SEMPLE ST
+<br>PITTSBURGH PA 15213</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_66009620_sp" name="Licensee_1535035_1402681_66009620_sp" class="possegrid" style="text-align: left">SEMPLE STREET LIQUOR LLC</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_66009620_sp" name="State_1535035_1402681_66009620_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_66009620_sp" name="IssueDateFormatted_1535035_1402681_66009620_sp" class="possegrid" style="text-align: left">Apr 2, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_66009620_sp" name="FormattedExpirationDate_1535035_1402681_66009620_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_2"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_65806191_sp" name="LID_Link_1535035_1402681_65806191_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_65806191" name="LID_Link_1535035_1402681_65806191" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_65806191', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=65806191', 1100, 500, 'LID_Link_1535035_1402681_65806191')">902</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_65806191_sp" name="LicenseNumber_1535035_1402681_65806191_sp" class="possegrid" style="text-align: left">CC1332</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_65806191_sp" name="LicenseType_1535035_1402681_65806191_sp" class="possegrid" style="text-align: left">Catering Club (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_65806191_sp" name="Premise_1535035_1402681_65806191_sp" class="possegrid" style="text-align: left"><b>THE GREEK COMMUNITY OF ALLEGHENY COUNTY PA</b><br/>419 S DITHRIDGE ST
+<br>PITTSBURGH PA 15213-3509</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_65806191_sp" name="Licensee_1535035_1402681_65806191_sp" class="possegrid" style="text-align: left">THE GREEK COMMUNITY OF ALLEGHENY COUNTY PA</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_65806191_sp" name="State_1535035_1402681_65806191_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_65806191_sp" name="IssueDateFormatted_1535035_1402681_65806191_sp" class="possegrid" style="text-align: left">Mar 12, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_65806191_sp" name="FormattedExpirationDate_1535035_1402681_65806191_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_1"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_47488939_sp" name="LID_Link_1535035_1402681_47488939_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_47488939" name="LID_Link_1535035_1402681_47488939" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_47488939', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=47488939', 1100, 500, 'LID_Link_1535035_1402681_47488939')">90374</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_47488939_sp" name="LicenseNumber_1535035_1402681_47488939_sp" class="possegrid" style="text-align: left">AE36204</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_47488939_sp" name="LicenseType_1535035_1402681_47488939_sp" class="possegrid" style="text-align: left">Alcohol Tax-Exempt</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_47488939_sp" name="Premise_1535035_1402681_47488939_sp" class="possegrid" style="text-align: left"><b>CARLOW UNIVERSITY</b><br/>3333 5TH AVE 
+<br>PITTSBURGH PA 15213</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_47488939_sp" name="Licensee_1535035_1402681_47488939_sp" class="possegrid" style="text-align: left">CARLOW UNIVERSITY</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_47488939_sp" name="State_1535035_1402681_47488939_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_47488939_sp" name="IssueDateFormatted_1535035_1402681_47488939_sp" class="possegrid" style="text-align: left">Nov 6, 2017</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_47488939_sp" name="FormattedExpirationDate_1535035_1402681_47488939_sp" class="possegrid" style="text-align: left">Dec 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_2"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_68803260_sp" name="LID_Link_1535035_1402681_68803260_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_68803260" name="LID_Link_1535035_1402681_68803260" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_68803260', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=68803260', 1100, 500, 'LID_Link_1535035_1402681_68803260')">91815</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_68803260_sp" name="LicenseNumber_1535035_1402681_68803260_sp" class="possegrid" style="text-align: left">R13001</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_68803260_sp" name="LicenseType_1535035_1402681_68803260_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_68803260_sp" name="Premise_1535035_1402681_68803260_sp" class="possegrid" style="text-align: left"><b>5TH YEAR INC</b><br/>116 OAKLAND AVE
+<br>PITTSBURGH PA 15213-3503</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_68803260_sp" name="Licensee_1535035_1402681_68803260_sp" class="possegrid" style="text-align: left">5TH YEAR INC</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_68803260_sp" name="State_1535035_1402681_68803260_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_68803260_sp" name="IssueDateFormatted_1535035_1402681_68803260_sp" class="possegrid" style="text-align: left">May 22, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_68803260_sp" name="FormattedExpirationDate_1535035_1402681_68803260_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_1"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_67749300_sp" name="LID_Link_1535035_1402681_67749300_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_67749300" name="LID_Link_1535035_1402681_67749300" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_67749300', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=67749300', 1100, 500, 'LID_Link_1535035_1402681_67749300')">94147</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_67749300_sp" name="LicenseNumber_1535035_1402681_67749300_sp" class="possegrid" style="text-align: left">R10854</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_67749300_sp" name="LicenseType_1535035_1402681_67749300_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_67749300_sp" name="Premise_1535035_1402681_67749300_sp" class="possegrid" style="text-align: left"><b>MERO CHIKN INC</b><br/>3712 FORBES AVE
+<br>PITTSBURGH PA 15213-3409</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_67749300_sp" name="Licensee_1535035_1402681_67749300_sp" class="possegrid" style="text-align: left">MERO CHIKN INC</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_67749300_sp" name="State_1535035_1402681_67749300_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_67749300_sp" name="IssueDateFormatted_1535035_1402681_67749300_sp" class="possegrid" style="text-align: left">Apr 25, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_67749300_sp" name="FormattedExpirationDate_1535035_1402681_67749300_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_2"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_67671870_sp" name="LID_Link_1535035_1402681_67671870_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_67671870" name="LID_Link_1535035_1402681_67671870" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_67671870', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=67671870', 1100, 500, 'LID_Link_1535035_1402681_67671870')">94276</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_67671870_sp" name="LicenseNumber_1535035_1402681_67671870_sp" class="possegrid" style="text-align: left">H40370</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_67671870_sp" name="LicenseType_1535035_1402681_67671870_sp" class="possegrid" style="text-align: left">Hotel (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_67671870_sp" name="Premise_1535035_1402681_67671870_sp" class="possegrid" style="text-align: left"><b>THE OAKLANDER</b><br/>5126-5130 Bigelow Blvd
+<br>Pittsburgh PA 15213</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_67671870_sp" name="Licensee_1535035_1402681_67671870_sp" class="possegrid" style="text-align: left">CONCORD HOSPITALITY ENTERPRISES COMPANY</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_67671870_sp" name="State_1535035_1402681_67671870_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_67671870_sp" name="IssueDateFormatted_1535035_1402681_67671870_sp" class="possegrid" style="text-align: left">May 15, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_67671870_sp" name="FormattedExpirationDate_1535035_1402681_67671870_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_1"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_71225967_sp" name="LID_Link_1535035_1402681_71225967_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_71225967" name="LID_Link_1535035_1402681_71225967" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_71225967', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=71225967', 1100, 500, 'LID_Link_1535035_1402681_71225967')">96752</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_71225967_sp" name="LicenseNumber_1535035_1402681_71225967_sp" class="possegrid" style="text-align: left">R15672</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_71225967_sp" name="LicenseType_1535035_1402681_71225967_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_71225967_sp" name="Premise_1535035_1402681_71225967_sp" class="possegrid" style="text-align: left"><b>EMILIANOS CENTRE AVENUE LLC</b><br/>4815 CENTRE AVE 
+<br>PITTSBURGH PA 15213</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_71225967_sp" name="Licensee_1535035_1402681_71225967_sp" class="possegrid" style="text-align: left">EMILIANOS CENTRE AVENUE LLC</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_71225967_sp" name="State_1535035_1402681_71225967_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_71225967_sp" name="IssueDateFormatted_1535035_1402681_71225967_sp" class="possegrid" style="text-align: left">Jul 30, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_71225967_sp" name="FormattedExpirationDate_1535035_1402681_71225967_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_2"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_68218862_sp" name="LID_Link_1535035_1402681_68218862_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_68218862" name="LID_Link_1535035_1402681_68218862" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_68218862', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=68218862', 1100, 500, 'LID_Link_1535035_1402681_68218862')">96890</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_68218862_sp" name="LicenseNumber_1535035_1402681_68218862_sp" class="possegrid" style="text-align: left">R9934</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_68218862_sp" name="LicenseType_1535035_1402681_68218862_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_68218862_sp" name="Premise_1535035_1402681_68218862_sp" class="possegrid" style="text-align: left"><b>LUCCA RISTORANTE</b><br/>317 S CRAIG ST
+<br>PITTSBURGH PA 15213-3726</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_68218862_sp" name="Licensee_1535035_1402681_68218862_sp" class="possegrid" style="text-align: left">DIDONATO HOLDINGS LLC</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_68218862_sp" name="State_1535035_1402681_68218862_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_68218862_sp" name="IssueDateFormatted_1535035_1402681_68218862_sp" class="possegrid" style="text-align: left">May 8, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_68218862_sp" name="FormattedExpirationDate_1535035_1402681_68218862_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_1"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_66676819_sp" name="LID_Link_1535035_1402681_66676819_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_66676819" name="LID_Link_1535035_1402681_66676819" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_66676819', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=66676819', 1100, 500, 'LID_Link_1535035_1402681_66676819')">97527</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_66676819_sp" name="LicenseNumber_1535035_1402681_66676819_sp" class="possegrid" style="text-align: left">AN41235</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_66676819_sp" name="LicenseType_1535035_1402681_66676819_sp" class="possegrid" style="text-align: left">Alcohol Non-Beverage</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_66676819_sp" name="Premise_1535035_1402681_66676819_sp" class="possegrid" style="text-align: left"><b>CARNEGIE MELLON UNIVERSITY</b><br/>5000 FORBES AVE
+<br>PITTSBURGH PA 15213-3815</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_66676819_sp" name="Licensee_1535035_1402681_66676819_sp" class="possegrid" style="text-align: left">FLUIDFORM LLC </span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_66676819_sp" name="State_1535035_1402681_66676819_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_66676819_sp" name="IssueDateFormatted_1535035_1402681_66676819_sp" class="possegrid" style="text-align: left">Apr 2, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_66676819_sp" name="FormattedExpirationDate_1535035_1402681_66676819_sp" class="possegrid" style="text-align: left">Dec 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tbody class="posseband_2"><tr class="possegrid">
+<td class="normallink" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LID_Link_1535035_1402681_66225376_sp" name="LID_Link_1535035_1402681_66225376_sp" class="normallink" style="text-align: left"><a id="LID_Link_1535035_1402681_66225376" name="LID_Link_1535035_1402681_66225376" class="normallink" tabindex="1" 
+     title="View the License details" target="_Blank" href="javascript:PossePopup('LID_Link_1535035_1402681_66225376', 'editobjectpopup.aspx?PossePresentation=LicenseDetails&PosseObjectId=66225376', 1100, 500, 'LID_Link_1535035_1402681_66225376')">9837</a></span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseNumber_1535035_1402681_66225376_sp" name="LicenseNumber_1535035_1402681_66225376_sp" class="possegrid" style="text-align: left">R1198</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="LicenseType_1535035_1402681_66225376_sp" name="LicenseType_1535035_1402681_66225376_sp" class="possegrid" style="text-align: left">Restaurant (Liquor)</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Premise_1535035_1402681_66225376_sp" name="Premise_1535035_1402681_66225376_sp" class="possegrid" style="text-align: left"><b>ZARRA'S</b><br/>3885-3887 BIGELOW BLVD
+<br>PITTSBURGH PA 15213-1122</span></td>
+<td class="possegrid" valign="top" colspan="1" rowspan="1" style="text-align: left" ><span id="Licensee_1535035_1402681_66225376_sp" name="Licensee_1535035_1402681_66225376_sp" class="possegrid" style="text-align: left">SPOTLITE LOUNGE INC.</span></td>
+<td class="abcactive" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="State_1535035_1402681_66225376_sp" name="State_1535035_1402681_66225376_sp" class="abcactive" style="text-align: left">Active</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="IssueDateFormatted_1535035_1402681_66225376_sp" name="IssueDateFormatted_1535035_1402681_66225376_sp" class="possegrid" style="text-align: left">Mar 27, 2019</span></td>
+<td class="possegrid" valign="middle" colspan="1" rowspan="1" style="text-align: left" nowrap><span id="FormattedExpirationDate_1535035_1402681_66225376_sp" name="FormattedExpirationDate_1535035_1402681_66225376_sp" class="possegrid" style="text-align: left">May 31, 2020</span></td>
+<td class="possegrid" colspan="1" rowspan="1"></td>
+</tr></tbody>
+<tr class="possegrid"><tr class="possegrid">
+<td class="possegrid" valign="top" colspan="1" style="text-align:left"></td>
+<td class="possegrid" valign="top" colspan="1" style="text-align:left"></td>
+<td class="possegrid" valign="top" colspan="1" style="text-align:left"></td>
+<td class="possegrid" valign="top" colspan="1" style="text-align:left"></td>
+<td class="possegrid" valign="top" colspan="1" style="text-align:left"></td>
+<td class="possegrid" valign="top" colspan="1" style="text-align:left"></td>
+<td class="possegrid" valign="top" colspan="1" style="text-align:left"></td>
+<td class="possegrid" valign="top" colspan="1" style="text-align:left">Records found:</td>
+<td class="possegrid" valign="top" colspan="1" style="text-align:left">56</td>
+</tr></tr>
+<tr class="possegrid">
+<td class="possegrid"><img class="possegrid" src="/pub/images/posseband.gif <view-source:https://plcbplus.pa.gov/pub/images/posseband.gif>" width="49" height="1" alt=""></td>
+<td class="possegrid"><img class="possegrid" src="/pub/images/posseband.gif <view-source:https://plcbplus.pa.gov/pub/images/posseband.gif>" width="73" height="1" alt=""></td>
+<td class="possegrid"><img class="possegrid" src="/pub/images/posseband.gif <view-source:https://plcbplus.pa.gov/pub/images/posseband.gif>" width="128" height="1" alt=""></td>
+<td class="possegrid"><img class="possegrid" src="/pub/images/posseband.gif <view-source:https://plcbplus.pa.gov/pub/images/posseband.gif>" width="214" height="1" alt=""></td>
+<td class="possegrid"><img class="possegrid" src="/pub/images/posseband.gif <view-source:https://plcbplus.pa.gov/pub/images/posseband.gif>" width="153" height="1" alt=""></td>
+<td class="possegrid"><img class="possegrid" src="/pub/images/posseband.gif <view-source:https://plcbplus.pa.gov/pub/images/posseband.gif>" width="98" height="1" alt=""></td>
+<td class="possegrid"><img class="possegrid" src="/pub/images/posseband.gif <view-source:https://plcbplus.pa.gov/pub/images/posseband.gif>" width="85" height="1" alt=""></td>
+<td class="possegrid"><img class="possegrid" src="/pub/images/posseband.gif <view-source:https://plcbplus.pa.gov/pub/images/posseband.gif>" width="91" height="1" alt=""></td>
+<td class="possegrid"><img class="possegrid" src="/pub/images/posseband.gif <view-source:https://plcbplus.pa.gov/pub/images/posseband.gif>" width="55" height="1" alt=""></td>
+</tr></table>
+
+</div>
+
+                    </div>
+                     <div class="buttons">
+                        
+	<div id="cphBottomFunctionBand_pnlBottomFunctionBand">
+	
+	<table border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+<div class="button">
+    <a id="cphBottomFunctionBand_ctl03_Search" tabindex="999" onclick="return cphBottomFunctionBand_ctl03_Search_fn();"><span id="cphBottomFunctionBand_ctl03_lblBtnLabel">Search Again</span></a>
+</div>
+</td>
+		</tr>
+	</table>
+
+</div>
+
+                    </div>
+                    <div>
+                        
+	<div id="cphDebugLinkBand_pnlDebugLinkBand">
+	
+	<table cellspacing="0" width="100%">
+		<tr>
+			<td width="100%" align="right"><span class="screenid" onclick="PosseToggleDebugKey()">Screen ID: 1535035</span></td>
+		</tr>
+	</table>
+
+</div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="footer">
+            <a href="http://www.pa.gov/Privacy-Policy <view-source:http://www.pa.gov/Privacy-Policy>">PRIVACY POLICY</a> | <a href="http://www.pa.gov/security-policy/ <view-source:http://www.pa.gov/security-policy/>">SECURITY POLICY</a> | 
+			<a href="http://www.lcb.state.pa.us/PLCB/Contact/index.htm <view-source:http://www.lcb.state.pa.us/PLCB/Contact/index.htm>">CONTACT US</a> | <a href="http://www.lcb.state.pa.us/cons/groups/externalaffairs/documents/form/003274.pdf <view-source:http://www.lcb.state.pa.us/cons/groups/externalaffairs/documents/form/003274.pdf>">RIGHT TO KNOW LAW</a><br>
+            <span onclick="PosseToggleDebugKey()">Copyright &copy; 2015-2016 Commonwealth of Pennsylvania. All Rights Reserved</span><br>
+            <a href="http://www.lcb.state.pa.us/PLCB/Contact/index.htm <view-source:http://www.lcb.state.pa.us/PLCB/Contact/index.htm>">Contact Us</a> | 717.783.7637<br>
+            <img src="images/posselogo.png <view-source:https://plcbplus.pa.gov/pub/images/posselogo.png>" alt="Powered by POSSE" />
+            
+	<div id="cphFooterBand_pnlFooterBand">
+	
+	<div>
+
+	</div>
+</div>
+
+        </div>
+    </div>
+    </form>
+    <div style="display: none">
+        
+                <script language="javascript">
+                var vPosseglobalErrorText = "An invalid temporary file " +
+                    "posseglobal.js was found.\n" +
+                    "Try one of the following:\n" +
+                    "  - (Internet Explorer) press Ctrl + F5\n" +
+                    "  - (Other browsers) press Ctrl + Shift + R\n" +
+                    "  - Clear the browser cache " +
+                    "and try again.";
+                function PosseOnLoad() {
+                  try {
+                    if (vPosseglobalVersion != "2014-12-18") {
+                      alert(vPosseglobalErrorText +
+                        "\nDate: expected 2014-12-18 found " +
+                        vPosseglobalVersion);
+                    } else {
+                      PosseSetEventHandlers();
+                    }
+                  }
+                  catch(e) {
+                    alert(vPosseglobalErrorText + "\nNo vPosseglobalVersion!");
+                  }
+
+PosseRefreshJavaScriptWidgets();
+PosseSetFocus("cphBottomFunctionBand_ctl03_PerformSearch", 0, 432);
+}
+function PosseOnRoundTrip() {
+}
+function PosseRefreshJavaScriptWidgets(){
+}
+</script>
+                <form id=possedocumentchangeform name=possedocumentchangeform
+                    method=post onsubmit="return PosseOnSubmit()">
+                  <input  id=currentpaneid name=currentpaneid
+                      value="1535035">
+                  <input  id=paneid name=paneid value="1535035">
+                  <input  id=functiondef name=functiondef
+                     value="3">
+                  <input  id=sortcolumns name=sortcolumns
+                     value="{}">
+                  <input  id=datachanges name=datachanges
+                     value="'%2BqseYI0qdkvt46pIB1CcfZd/7UT7z28Y%2Bgd1PGhoHuJzLri6S2DFPgc60U%2BtRnV2kAZfChPLzwCcxQTUa2xE6vifK51ydJgD2nnGdqW2E2/nmZ8KH6hgBWEGblcd84iuAZcFF3enAvTJ45foqenn/vaBHE4DSW0btGe3W%2BSNN%2BO9IwkkShWg7vrmvz0qXJFY8qAgNNU1IeXXEjFvVfixFgTJpb0e9mSb%2BheAhlOM4F4Lrbh7GW7fmiYWZhG36yDI8TZITkkxTMi49/YvYPpzaVWdTgfkmrv7mKZ2NxvGTOMJ4YPQ7C9BOKm1mM5k85GtbwWdpf%2Bu/6EoDyA/Lz4aqXSPBoT6Rv20/oMZP5ZxbZrFDozCAVCvcHu%2BYXPBR348hLr9Ty1TJ8naZvb0rhKEvdJfXf1/vYdcD94c9J%2BgN6if22PSYGMmPu3TNw3f257i%2Bz1JGDaUpluh7CgfVGcwypPiKW0CAGD0KWWlqzwKkPePutJBMb2qFMwNqWIYkNGtn5JhinTu2cT9CQ0FBl2JOOSl6sSyb38AyyhTqpEMx5MWelL4GsN9NiKqhALiUiqRC%2BreZ1w4/z%2BzmFZaVSYXootSxA05UI4Dl92N8zli66vs%2BpvY5%2B0OWdJcP0crHrqy93TvOkZuBpnU%2BO69eLj/J2RWGWxhT6q4kahUlM7hpc1BTlzqZoiRwOy%2B0JvFp9sK5bx4u%2BZ9qrX7oFHweuySu7ZgipOEDis5f/suNxr/xl7LeL0KxPtb0axzciPFp%2BM4j%2B8UP12CbO2SwBTJU%2Bib0w0vwoCr%2BIFOddaDz2WlAAnJ5ygMaXTh9e/xKUb5fiL1erGfISM58yGmOQeEYuRQdfxQZel5tFvtstaTNH/v7VzE0CM4Gx6QaG3E95NOT6RXHjjE0Dl92B1Iy8xH%2B/q4ywNMFmo/EExnG1YNfHmOy1cGcmV/Cn6nJ%2BZguyLQViihOZBENpVnjq/Lia/69duDBPPFfKOk%2BvfTjNQjksHNQGeYoSWhwmr9pxqXJq03zzWvTxyoEqo%2BT2XohjIdk5BXNdQFpeX/BRhdnbT7Tp5chQDhJYd17Gb6kYj8UH0KB9D9fqedLoTOWrtEvH0UsFiF4ebEjmEsCw9eczJK8Uz7UO1W%2BeQMD3miCOp63NhL38oSw2MmxHaGbbbT3c2/Wxlz4B2QHjSzL6AhUEMz/SMPz0Yz8wm0b0%2BhfTfY6cdT9L6UDDpA6Tt7OJfRzEMt3dI9UFZhJOK2IDiQ1sELkcYPKKnmTj1FX26HeJs/qij64hiI1G3Zzcaa9LD4Shy22u8GsTRwm%2BWpPLfS790LHYFd4mVoIyFIfGl7QmZCXVR1Lyxh'">
+                  <input  id=comesfrom name=comesfrom value="posse">
+                  <input  id=changesxml name=changesxml value="">
+                  
+                  <input name="changespending" id="changespending" value=""/><input name="changesonobject" id="changesonobject" value=""/></form>
+                <iframe id="posseiframe" style="width: 0; height: 0; visibility: hidden;"
+                  src="posseblankpage.html <view-source:https://plcbplus.pa.gov/pub/posseblankpage.html>"></iframe>
+        <form id="elementstodisable" method="post" onsubmit="return false;">
+        <input id="elementstodisablelist" name="elementstodisablelist" value="">
+		</form>
+    </div>
+
+    <script language="javascript" type="text/javascript">makeGridsClickable();</script>
+	
+	<div id="cphBrowserNavigationWarning_pnlBrowserNavigationWarning">
+	
+	
+</div>
+
+
+</body>
+</html>
+
