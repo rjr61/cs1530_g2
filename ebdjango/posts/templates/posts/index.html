@@ -27,6 +27,7 @@
                         {% load static %}
                         <input type="image" width="15px" height="15px" alt="submit"
                             src="{% static 'posts/upvote.png' %}" name="vote" value="vote">
+                        <input type="hidden" class="form-control" name="username" id = "username" value="{{ user.get_username }}">
                     </form>
                     <div padding-left="20px">{{post.post_score}}</div>
                     <form action="{% url 'posts:down_vote' post.id %}" method="post">
@@ -34,6 +35,7 @@
                         {% load static %}
                         <input type="image" width="15px" margin-top="5px" height="15px" alt="submit"
                             src="{% static 'posts/downvote.png' %}" name="downvote" value="downvote">
+                        <input type="hidden" class="form-control" name="username" id = "username" value="{{ user.get_username }}">
                     </form>
                 </div>
                 <div class="post-date">{{post.pub_date}}</div>

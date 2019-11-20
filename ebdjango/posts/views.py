@@ -4,7 +4,7 @@ from django.http import HttpResponseRedirect
 from django.http import HttpResponse, JsonResponse
 from django.views import generic
 from django import forms 
-from .models import Post
+from .models import Post, Likers
 from django.views.decorators.http import require_http_methods
 from django.template import loader
 from django.utils import timezone
@@ -57,8 +57,25 @@ class ResultsView(generic.DetailView):
 
 def vote(request, post_id):
     post = get_object_or_404(Post, pk=post_id)
-    post.post_score += 1
-    post.save()
+    like = Likers.objects.filter(post=post,like_author=request.POST['username'])
+    vals = like.values_list('val',flat=True)
+    #print(vals[0])
+    if not like :
+        post.post_score += 1
+        post.save()
+        like = Likers(
+            post = post,
+            like_author = request.POST['username'],
+            val = True
+        )
+        like.save()
+    elif not vals[0]:
+        like = get_object_or_404(like)
+        print(like)
+        post.post_score += 1
+        post.save()
+        like.val = True
+        like.save()
     # Always return an HttpResponseRedirect after successfully dealing
     # with POST data. This prevents data from being posted twice if a
     # user hits the Back button.
@@ -66,8 +83,25 @@ def vote(request, post_id):
 
 def down_vote(request, post_id):
     post = get_object_or_404(Post, pk=post_id)
-    post.post_score -= 1
-    post.save()
+    like = Likers.objects.filter(post=post,like_author=request.POST['username'])
+    vals = like.values_list('val',flat=True)
+    #print(vals[0])
+    if not like :
+        post.post_score -= 1
+        post.save()
+        like = Likers(
+            post = post,
+            like_author = request.POST['username'],
+            val = False
+        )
+        like.save()
+    elif vals[0]:
+        like = get_object_or_404(like)
+        print(like)
+        post.post_score -= 1
+        post.save()
+        like.val = False
+        like.save()
     # Always return an HttpResponseRedirect after successfully dealing
     # with POST data. This prevents data from being posted twice if a
     # user hits the Back button.
@@ -95,3 +129,15 @@ def locations(request):
                 return JsonResponse(json, safe=False)
             else:
                 HttpResponse("Did not work")
+
+def drink_type(request):
+    drink_type = request.POST['options']
+    print("This is the drinktype: "+ drink_type)
+    loc_post_list = Post.objects.filter(drink_type=drink_type)    
+    print("This is post list: "+ str(loc_post_list))
+    """Return the posts filtered by location"""
+    template = loader.get_template('posts/index.html')
+    context = {
+        'latest_post_list': loc_post_list,
+    }
+    return HttpResponse(template.render(context, request))

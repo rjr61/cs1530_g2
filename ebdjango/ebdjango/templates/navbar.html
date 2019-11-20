@@ -13,6 +13,29 @@
             <li class="nav-item">
                 <a class="nav-link" href="/">Recent</a>
             </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="drinkTypeDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Drink Type
+              </a>
+              <div class="dropdown-menu" aria-labelledby="drinkTypeDropdown">
+              <form action="{% url 'posts:drinktype'  %}" class="btn-group btn-group-toggle" data-toggle="buttons" method="post" id="drinktype" class="form-inline">
+                {% csrf_token %}
+                    <label class="btn btn-secondary active">
+                      <input type="radio" name="options" id="option1" autocomplete="off" value="BR" onchange="this.form.submit()"> Beer
+                    </label>
+                    <label class="btn btn-secondary">
+                      <input type="radio" name="options" id="option2" autocomplete="off" value="WI" onchange="this.form.submit()"> Wine
+                    </label>
+                    <label class="btn btn-secondary">
+                      <input type="radio" name="options" id="option3" autocomplete="off" value="CT" onchange="this.form.submit()"> Cocktail
+                    </label>
+                    <label class="btn btn-secondary">
+                      <input type="radio" name="options" id="option3" autocomplete="off" value = "SH" onchange="this.form.submit()"> Shot
+                    </label>
+                </form>
+              </div>
+            </li>
             <li class="nav-item my-auto">
                 <a class="nav-link navbar-brand mx-0 d-none d-md-inline" href="/">DrinkUp</a>
             </li>
@@ -21,11 +44,11 @@
               aria-haspopup="true" aria-expanded="false">
               Location
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" color="">
               <form action="{% url 'posts:location'  %}" method="post" class="form-inline">
               {% csrf_token %}
-                <input class="form-control basicAutoComplete" type="search" autocomplete="off" name="location" minLength = "1" placeholder="Filter Location" aria-label="Search" data-url="{% url 'posts:locations'%}">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <input class="form-control basicAutoComplete" type="search" autocomplete="off" name="location" placeholder="Filter Location" aria-label="Search" data-url="{% url 'posts:locations'%}">
+                <button class="btn btn-outline-success my-2 my-sm-0" align-content="center" type="submit">Search</button>
               </form>
             </div>
             </li>
