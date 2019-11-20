@@ -43,7 +43,7 @@ class Comments(models.Model):
 
 
 class Likers(models.Model):
-    post = models.ForeignKey(Post, on_delete=models.CASCADE)
+    post = models.ForeignKey(Post, on_delete=models.CASCADE, related_name="likes")
     like_author = models.CharField(max_length=64)
     val = models.BooleanField()
     def __str__(self):
