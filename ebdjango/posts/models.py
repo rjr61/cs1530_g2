@@ -18,7 +18,7 @@ class Post(models.Model):
     SHOT = 'SH'
     DRINK_CHOICES = (
         (WINE, 'wine'),
-        (BEER, 'beer'),
+        ('BR', 'beer'),
         (COCKTAIL, 'cocktail'),
         (SHOT, 'shot'),
     )
