@@ -10,6 +10,7 @@ urlpatterns = [
     path('location/', views.location, name='location'),
     path('drinktype/', views.drink_type, name='drinktype'),
     path('locations/', views.locations, name='locations'),
+    path('drinkname/', views.drinkname, name='drinkname'),
     path('form/', views.form, name='form'),
     path('upload/', views.upload, name='upload'),
     path('<int:pk>/', views.DetailView.as_view(), name='detail'),

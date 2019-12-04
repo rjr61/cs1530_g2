@@ -26,7 +26,7 @@ class TrendingView(generic.ListView,):
 
     def get_queryset(self):
         """Return the last five published posts."""
-        return Post.objects.order_by('-post_score')[:5]
+        return Post.objects.order_by('-post_score')
 
 #returns list of post based on location  
 def location(request):
@@ -35,6 +35,18 @@ def location(request):
     loc_post_list = Post.objects.filter(post_location=location)    
     print("This is post list: "+ str(loc_post_list))
     """Return the posts filtered by location"""
+    template = loader.get_template('posts/index.html')
+    context = {
+        'latest_post_list': loc_post_list,
+    }
+    return HttpResponse(template.render(context, request))
+
+def drinkname(request):
+    drinkname = request.POST['drinkname']
+    print("This is the location: "+ drinkname)
+    loc_post_list = Post.objects.filter(post_drink=drinkname)    
+    print("This is post list: "+ str(loc_post_list))
+    """Return the posts filtered by drinkname"""
     template = loader.get_template('posts/index.html')
     context = {
         'latest_post_list': loc_post_list,

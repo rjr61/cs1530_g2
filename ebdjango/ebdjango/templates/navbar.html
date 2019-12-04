@@ -22,16 +22,16 @@
               <form action="{% url 'posts:drinktype'  %}" class="btn-group btn-group-toggle" data-toggle="buttons" method="post" id="drinktype" class="form-inline">
                 {% csrf_token %}
                     <label class="btn btn-secondary active">
-                      <input type="radio" name="options" id="option1" autocomplete="off" value="BR" onchange="this.form.submit()"> Beer
+                      <input type="radio" name="options" id="option1" autocomplete="off" value="beer" onchange="this.form.submit()"> Beer
                     </label>
                     <label class="btn btn-secondary">
-                      <input type="radio" name="options" id="option2" autocomplete="off" value="WI" onchange="this.form.submit()"> Wine
+                      <input type="radio" name="options" id="option2" autocomplete="off" value="wine" onchange="this.form.submit()"> Wine
                     </label>
                     <label class="btn btn-secondary">
-                      <input type="radio" name="options" id="option3" autocomplete="off" value="CT" onchange="this.form.submit()"> Cocktail
+                      <input type="radio" name="options" id="option3" autocomplete="off" value="cocktail" onchange="this.form.submit()"> Cocktail
                     </label>
                     <label class="btn btn-secondary">
-                      <input type="radio" name="options" id="option3" autocomplete="off" value = "SH" onchange="this.form.submit()"> Shot
+                      <input type="radio" name="options" id="option3" autocomplete="off" value = "shot" onchange="this.form.submit()"> Shot
                     </label>
                 </form>
               </div>
@@ -55,6 +55,20 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="{% url 'posts:form' %}">Upload</a> 
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Drink Search
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" color="">
+              <form action="{% url 'posts:drinkname'  %}" method="post" class="form-inline">
+              {% csrf_token %}
+                <input class="form-control basicAutoComplete" type="search" autocomplete="off" name="drinkname" 
+                placeholder="Drink Name" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" align-content="center" type="submit">Search</button>
+              </form>
+            </div>
             </li>
         </ul>
         <ul class="nav navbar-nav flex-row justify-content-md-center justify-content-start flex-nowrap">

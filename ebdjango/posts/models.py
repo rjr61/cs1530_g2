@@ -12,13 +12,13 @@ class Post(models.Model):
     post_url = models.CharField(max_length=64, null=True, default="posts/cocktail.png")
     pub_date = models.DateTimeField('date published', default = timezone.now)
     
-    WINE = 'WI'
-    BEER = 'BR'
-    COCKTAIL = 'CT'
-    SHOT = 'SH'
+    WINE = 'wine'
+    BEER = 'beer'
+    COCKTAIL = 'cocktail'
+    SHOT = 'shot'
     DRINK_CHOICES = (
         (WINE, 'wine'),
-        ('BR', 'beer'),
+        (BEER, 'beer'),
         (COCKTAIL, 'cocktail'),
         (SHOT, 'shot'),
     )
