@@ -85,17 +85,17 @@ WSGI_APPLICATION = 'ebdjango.wsgi.application'
 
 DATABASES = {
     'default': {
-#        'ENGINE': 'django.db.backends.sqlite3',
-#        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'drinkituprdb',
-        'USER': 'admin',
-        'PASSWORD': os.environ['DB_PWD'],
-        'HOST': os.environ['DB_HOST'],
-        'PORT': '3306',
-        'OPTIONS': {
-            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
-        },
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#        'ENGINE': 'django.db.backends.mysql',
+#        'NAME': 'drinkituprdb',
+#        'USER': 'admin',
+#        'PASSWORD': os.environ['DB_PWD'],
+#        'HOST': os.environ['DB_HOST'],
+#        'PORT': '3306',
+#        'OPTIONS': {
+#            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
+#        },
     }
 }
 
