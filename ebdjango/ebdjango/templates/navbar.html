@@ -8,39 +8,16 @@
     <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
         <ul class="navbar-nav mx-auto text-md-center text-left">
             <li class="nav-item">
-              <div class="tip-container" data-toggle="popover" data-trigger="manual" title="Dismissible popover"
-              data-content="Some tip 1" data-placement="left">
+              <div class="tip-container" data-toggle="popover" data-trigger="manual" title="Sort Options"
+              data-content="Select a sort option" data-placement="left">
                 <a class="nav-link" href="{% url 'posts:trends'%}">Trending</a> 
               </div>
             </li>
             <li class="nav-item">
-                <div class="tip-container" data-toggle="popover" data-trigger="manual" title="Dismissible popover"
-                data-content="Some tip 2" data-placement="bottom">
                 <a class="nav-link" href="/">Recent</a>
-                </div>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="drinkTypeDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Drink Type
-              </a>
-              <div class="dropdown-menu" aria-labelledby="drinkTypeDropdown">
-              <form action="{% url 'posts:drinktype'  %}" class="btn-group btn-group-toggle" data-toggle="buttons" method="post" id="drinktype" class="form-inline">
-                {% csrf_token %}
-                    <label class="btn btn-secondary active">
-                      <input type="radio" name="options" id="option1" autocomplete="off" value="beer" onchange="this.form.submit()"> Beer
-                    </label>
-                    <label class="btn btn-secondary">
-                      <input type="radio" name="options" id="option2" autocomplete="off" value="wine" onchange="this.form.submit()"> Wine
-                    </label>
-                    <label class="btn btn-secondary">
-                      <input type="radio" name="options" id="option3" autocomplete="off" value="cocktail" onchange="this.form.submit()"> Cocktail
-                    </label>
-                    <label class="btn btn-secondary">
-                      <input type="radio" name="options" id="option3" autocomplete="off" value = "shot" onchange="this.form.submit()"> Shot
-                    </label>
-                </form>
-              </div>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'posts:form' %}">Upload</a> 
             </li>
             <li class="nav-item my-auto">
                 <a class="nav-link navbar-brand mx-0 d-none d-md-inline" href="/">DrinkUp</a>
@@ -59,23 +36,47 @@
               </form>
             </div>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="{% url 'posts:form' %}">Upload</a> 
-            </li>
+            
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Drink Search
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" color="">
-              <form action="{% url 'posts:drinkname'  %}" method="post" class="form-inline">
-              {% csrf_token %}
-                <input class="form-control basicAutoComplete" type="search" autocomplete="off" name="drinkname" 
-                placeholder="Drink Name" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" align-content="center" type="submit">Search</button>
-              </form>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Name
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" color="">
+                <form action="{% url 'posts:drinkname'  %}" method="post" class="form-inline">
+                {% csrf_token %}
+                  <input class="form-control basicAutoComplete" type="search" autocomplete="off" name="drinkname" 
+                  placeholder="Drink Name" aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" align-content="center" type="submit">Search</button>
+                </form>
+              </div>
+              </li>
+              <div class="tip-container" data-toggle="popover" data-trigger="manual" title="Advanced Options"
+              data-content="Or try an advanced search" data-placement="right">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="drinkTypeDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Type
+                </a>
+                <div class="dropdown-menu" aria-labelledby="drinkTypeDropdown">
+                <form action="{% url 'posts:drinktype'  %}" class="btn-group btn-group-toggle" data-toggle="buttons" method="post" id="drinktype" class="form-inline">
+                  {% csrf_token %}
+                      <label class="btn btn-secondary active">
+                        <input type="radio" name="options" id="option1" autocomplete="off" value="beer" onchange="this.form.submit()"> Beer
+                      </label>
+                      <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option2" autocomplete="off" value="wine" onchange="this.form.submit()"> Wine
+                      </label>
+                      <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option3" autocomplete="off" value="cocktail" onchange="this.form.submit()"> Cocktail
+                      </label>
+                      <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option3" autocomplete="off" value = "shot" onchange="this.form.submit()"> Shot
+                      </label>
+                  </form>
+                </div>
+              </li>
             </div>
-            </li>
         </ul>
         <ul class="nav navbar-nav flex-row justify-content-md-center justify-content-start flex-nowrap">
           <li class="nav-item dropdown">
@@ -97,3 +98,9 @@
     </div>
 </nav>
 {% endblock %}
+
+{% comment %}
+<div class="tip-container" data-toggle="popover" data-trigger="manual" title="Dismissible popover"
+data-content="Some tip" data-placement="bottom">
+</div>
+{% endcomment %}

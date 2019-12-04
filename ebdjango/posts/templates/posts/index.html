@@ -5,10 +5,39 @@
 {% block content %}
 <div class="index-container">
     {% if user.is_authenticated %}
+    <div class="tip-container" data-toggle="popover" data-trigger="manual" title="Example Post"
+    data-content="Each post contains the author, name, location, image, description, post date, and rating" data-placement="left">
+    <div class='post-body' id="help-post" style="display:none;">
+            <div class="post-info">
+                <div class='post-author'>User</div>
+                <div class="post_drink">Drink</div>
+                <div class='post-location'>Location</div>
+            </div>
+            <div class="post-content">
+                {% load static %}
+                <img src="{% static 'posts/cocktail.png' %}" class="drink-img">
+                <div class='post-text'>Review</div>
+            </div>
+            <div class="post-likes">
+                <div class="post-score">
+                {% load static %}
+                <input type="image" width="15px" height="15px" alt="submit"
+                    src="{% static 'posts/upvote.png' %}" name="vote" value="vote">
+                    <div style="padding-left: 5px; padding-right: 5px">999</div>
+                {% load static %}
+                <div class="tip-container" data-toggle="popover" data-trigger="manual" title="Rating"
+                data-content="Posts can be up or down voted" data-placement="right">
+                <input type="image" width="15px" margin-top="5px" height="15px" alt="submit"
+                    src="{% static 'posts/downvote.png' %}" name="downvote" value="downvote">
+                    </div>
+                </div>
+                <div class="post-date">Jan. 1, 2019, 12:00 a.m.</div>
+            </div>
+        </div>
+    </div>
     {% if latest_post_list %}
     {% for post in latest_post_list %}
     <div>
-
         <div class='post-body'>
             <div class="post-info">
                 <div class='post-author'>{{post.post_author}}</div>
@@ -27,7 +56,8 @@
                         {% load static %}
                         <input type="image" width="15px" height="15px" alt="submit"
                             src="{% static 'posts/upvote.png' %}" name="vote" value="vote">
-                        <input type="hidden" class="form-control" name="username" id = "username" value="{{ user.get_username }}">
+                        <input type="hidden" class="form-control" name="username" id="username"
+                            value="{{ user.get_username }}">
                     </form>
                     <div padding-left="20px">{{post.post_score}}</div>
                     <form action="{% url 'posts:down_vote' post.id %}" method="post">
@@ -35,7 +65,8 @@
                         {% load static %}
                         <input type="image" width="15px" margin-top="5px" height="15px" alt="submit"
                             src="{% static 'posts/downvote.png' %}" name="downvote" value="downvote">
-                        <input type="hidden" class="form-control" name="username" id = "username" value="{{ user.get_username }}">
+                        <input type="hidden" class="form-control" name="username" id="username"
+                            value="{{ user.get_username }}">
                     </form>
                 </div>
                 <div class="post-date">{{post.pub_date}}</div>
@@ -45,10 +76,10 @@
         {% else %}
         <p>No posts are available.</p>
         {% endif %}
-    {% else %}
-    <p>Please login to see this page.</p>
-    <a href="{% url 'login' %}?next={{request.path}}">Login</a>
-    {% endif %}
+        {% else %}
+        <p>Please login to see this page.</p>
+        <a href="{% url 'login' %}?next={{request.path}}">Login</a>
+        {% endif %}
     </div>
 </div>
 {% endblock %}

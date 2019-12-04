@@ -34,3 +34,10 @@ li a {
 }
 
 .dropdown-toggle::after { border: none; }
+
+.info-button {
+    position: fixed; 
+    left: 5%;
+    bottom:5%;
+    width:100%; 
+}

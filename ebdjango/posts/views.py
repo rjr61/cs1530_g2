@@ -119,13 +119,20 @@ def down_vote(request, post_id):
     return HttpResponseRedirect(reverse('posts:index'))
 
 def upload(request):
+    DRINK_CHOICES = {
+        'wine':'WI',
+        'beer':'BR',
+        'cocktail':'CT',
+        'shot':'SH'
+    }
+
     post_dict = request.POST
     post = Post(
         post_author=post_dict['post_author'],
         post_drink=post_dict['post_drink'],
         post_location = post_dict['post_location'],
         post_text = post_dict['post_text'],
-        drink_type = post_dict['drink_type'],
+        drink_type = DRINK_CHOICES[post_dict['drink_type']],
         post_url = 'posts/' + post_dict['drink_type'] + '.png'
     )
     result = post.save()
@@ -142,9 +149,16 @@ def locations(request):
                 HttpResponse("Did not work")
 
 def drink_type(request):
+    DRINK_CHOICES = {
+        'wine':'WI',
+        'beer':'BR',
+        'cocktail':'CT',
+        'shot':'SH'
+    }
+
     drink_type = request.POST['options']
-    print("This is the drinktype: "+ drink_type)
-    loc_post_list = Post.objects.filter(drink_type=drink_type)    
+    print("This is the drinktype: "+ DRINK_CHOICES[drink_type])
+    loc_post_list = Post.objects.filter(drink_type=DRINK_CHOICES[drink_type])    
     print("This is post list: "+ str(loc_post_list))
     """Return the posts filtered by location"""
     template = loader.get_template('posts/index.html')
